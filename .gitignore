@@ -1,0 +1,80 @@
+# ==========================================
+# 🐙 .gitignore — empleoBio & Bio-Portfolio
+# ==========================================
+
+# 🧬 Datasets Genómicos Grandes (NUNCA subir a Git)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+*.fasta
+*.fa
+*.fna
+*.ffn
+*.faa
+*.gff
+*.gff3
+*.gtf
+*.bed
+*.bigWig
+*.bw
+*.sra
+
+# 🗂️ Carpetas de Datos e Intermedios (Preservar la estructura con .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/reference/*
+!data/reference/.gitkeep
+
+# 🧪 Scratch & Borradores Temporales
+scratch/*
+!scratch/README.md
+tmp/
+*.tmp
+*.log
+
+# 🐍 Entornos Virtuales y Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🔒 Credenciales, Llaves y Variables de Entorno
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# 💻 Archivos Temporales de OS y Editores (Obsidian/VS Code)
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+.obsidian/workspace*
+.obsidian/cache*
+
+# ??? Papelera Segura del LLM (Archivaci�n)
+_archivacion/
+!_archivacion/.gitkeep

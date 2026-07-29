@@ -1,0 +1,28 @@
+# ==========================================
+# ⚓ .gitattributes — Normalización de Git
+# ==========================================
+
+# 📄 Normalización de fin de línea a LF (Linux/WSL)
+* text=auto eol=lf
+
+# 📝 Documentación Markdown
+*.md text eol=lf whitespace=-trailing-space
+
+# 🐍 Scripts y Código
+*.py text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+*.nf text eol=lf
+*.sql text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# 🖼️ Archivos Binarios (Imágenes y Comprimidos)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
