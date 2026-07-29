@@ -72,9 +72,8 @@ desktop.ini
 !.vscode/tasks.json
 !.vscode/launch.json
 .idea/
-.obsidian/workspace*
-.obsidian/cache*
+.obsidian/
 
-# ??? Papelera Segura del LLM (Archivación)
+# Local archival originals: preserve locally, do not publish
 _archivacion/
 !_archivacion/.gitkeep
