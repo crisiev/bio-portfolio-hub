@@ -8,4 +8,4 @@
 - **🔗 Evidencia:** [enlace al commit / repo / PR / archivo generado]
 - **➡️ Siguiente paso:** [qué haré mañana]
 
-<!-- Al cerrar el día: git add . && git commit -m "docs(bitacora): update daily log" -->
+<!-- Al cerrar el día: git add 04_Bitacora/AAAA-MM.md && git commit -m "docs(bitacora): update daily log for AAAA-MM-DD" -->

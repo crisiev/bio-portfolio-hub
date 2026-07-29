@@ -31,7 +31,7 @@ Lleva esta carpeta en repositorios de GitHub. La combinación *bitácora escrita
 - **Un archivo por mes:** `2026-07.md`, `2026-08.md`, etc.
 - **Cada día que trabajes:** Copia el bloque de `_PLANTILLA_dia.md` al inicio del mes actual y rellénalo.
 - **Sé honesto:** Registra también los errores. Un error registrado es munición para la pregunta de entrevista *"háblame de un fracaso"*.
-- **Al terminar el día:** `git add . && git commit -m "docs(bitacora): update daily log"`.
+- **Al terminar el día:** `git add 04_Bitacora/2026-07.md && git commit -m "docs(bitacora): update daily log"`.
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
 

@@ -23,4 +23,4 @@
 ## 📝 Notas & Decisiones
 [Lo que aprendí, qué elegí y por qué, enlaces útiles.]
 
-<!-- Al cerrar: git add . && git commit -m "feat(mvp): complete ticket MVP-###" -->
+<!-- Al cerrar: git add <archivos_modificados> && git commit -m "feat(mvp): complete ticket MVP-###" -->
