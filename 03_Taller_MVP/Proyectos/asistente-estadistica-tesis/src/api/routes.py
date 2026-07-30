@@ -1,6 +1,7 @@
 """API Routers for statistical endpoints."""
 
 from fastapi import APIRouter, HTTPException, status
+
 from src.domain.models import StatRequest, StatResponse
 from src.services.stats_service import StatsService
 

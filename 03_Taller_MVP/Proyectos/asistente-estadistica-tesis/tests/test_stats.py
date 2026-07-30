@@ -1,6 +1,7 @@
 """Automated unit tests for statistical services."""
 
 import pytest
+
 from src.services.stats_service import StatsService
 
 

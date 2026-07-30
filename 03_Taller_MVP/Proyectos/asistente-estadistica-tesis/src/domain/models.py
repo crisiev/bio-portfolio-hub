@@ -1,12 +1,11 @@
 """Domain models and Pydantic validation schemas."""
 
-from typing import List
 from pydantic import BaseModel, Field
 
 
 class StatRequest(BaseModel):
-    sample_a: List[float] = Field(..., description="First group numerical sample")
-    sample_b: List[float] = Field(..., description="Second group numerical sample")
+    sample_a: list[float] = Field(..., description="First group numerical sample")
+    sample_b: list[float] = Field(..., description="Second group numerical sample")
     alpha: float = Field(
         default=0.05, ge=0.001, le=0.1, description="Significance level alpha"
     )

@@ -1,8 +1,8 @@
 """Biostatistical computation service layer."""
 
-from typing import List
 import numpy as np
 from scipy import stats
+
 from src.domain.models import StatResponse
 
 
@@ -11,7 +11,7 @@ class StatsService:
 
     @staticmethod
     def run_two_sample_ttest(
-        sample_a: List[float], sample_b: List[float], alpha: float = 0.05
+        sample_a: list[float], sample_b: list[float], alpha: float = 0.05
     ) -> StatResponse:
         """Executes a two-sample Student's t-test after a minimum-size check."""
         if len(sample_a) < 3 or len(sample_b) < 3:

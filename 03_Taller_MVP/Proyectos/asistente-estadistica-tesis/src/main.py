@@ -1,8 +1,9 @@
 """FastAPI Application Main Entry Point."""
 
 from fastapi import FastAPI
-from src.core.config import settings
+
 from src.api.routes import router as stats_router
+from src.core.config import settings
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
