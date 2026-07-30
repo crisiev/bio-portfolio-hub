@@ -29,11 +29,15 @@ jobs:
           python scripts/setup_dev_env.py
 
       - name: Run Flagship MVP Unit Tests
+        env:
+          PYTHONPATH: .
         run: |
           cd 03_Taller_MVP/Proyectos/asistente-estadistica-tesis
           python -m pytest tests/ -v
 
       - name: Run Flagship MVP Lint and Format Checks
+        env:
+          PYTHONPATH: .
         run: |
           cd 03_Taller_MVP/Proyectos/asistente-estadistica-tesis
           python -m ruff check src tests
