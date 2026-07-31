@@ -28,7 +28,7 @@
 - [10. Mapa Cruzado: Materias Universitarias](#-mapa-cruzado-materias-universitarias--rangos)
 - [11. Autoevaluación & Checkpoints](#-autoevaluación-checkpoints-obligatorios)
 - [12. Protocolo de Continuidad](#-protocolo-de-continuidad-para-cualquier-llm-futuro)
-- [13. Estado Vivo](#estado-vivo)
+- [13. Estado Vivo](#-13-estado-vivo)
 
 ---
 
@@ -603,7 +603,7 @@ Horas acumuladas: [actualizar aquí]
 
 ---
 
-## Estado Vivo
+## 🟢 13. Estado Vivo
 
 | Campo | Valor |
 |-------|-------|
