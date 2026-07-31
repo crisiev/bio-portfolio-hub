@@ -12,6 +12,7 @@
 - [2. Recurso de Lanzamiento: Campaña en Reddit](#2-recurso-de-lanzamiento-campaña-en-reddit)
 - [3. Recurso de Idiomas: Prompt de Perfeccionamiento de Inglés Técnico](#3-recurso-de-idiomas-prompt-de-perfeccionamiento-de-inglés-técnico)
 - [4. Plan de Tareas Operativas (Checklist)](#4-plan-de-tareas-operativas-checklist)
+- [5. Estrategia Sociológica de Exposición & Posicionamiento de Mercado (El Nodo Honeypot)](#5-estrategia-sociológica-de-exposición--posicionamiento-de-mercado-el-nodo-honeypot)
 
 ---
 
@@ -87,5 +88,40 @@ If you are interested, please send me a DM or leave a comment here!
 - [ ] **TAREA 5:** Entrar a Reddit, abrir `r/bioinformatics`, adaptar la plantilla y publicar.
 - [ ] **TAREA 6:** Guardar BioStars y Bioinformatics Stack Exchange en marcadores web.
 - [ ] **TAREA 7:** Abrir tu app móvil de IA (Gemini/ChatGPT), activar la voz y lanzar el prompt.
+
+[⬆️ Volver al inicio](#-tabla-de-contenidos)
+
+---
+
+## 🦅 5. Estrategia Sociológica de Exposición & Posicionamiento de Mercado (El Nodo Honeypot)
+
+> [!NOTE]
+> **De Desarrollador en la Oscuridad a Autoridad de Mercado**  
+> Exponer tu trabajo públicamente no es un acto de ego; es la construcción de una **prueba de capacidad negociadora**. Tu portafolio actúa como un nodo de intersección social (Honeypot) donde atraes colaboradores, usuarios e inversores bajo tus propios términos.
+
+### 🏛️ La Matriz de Exposición en Dos Niveles
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 1. NODO PÚBLICO (Portafolio & Honeypot) ──► bio-portfolio-hub / empleoBio   │
+│    - Open Source, TDD, CI/CD, CONTRIBUTING.md, Bitacora y Prácticas.        │
+│    - Demuestra rigor técnico, generosidad de comunidad y liderazgo.         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 2. NODO PRIVADO/FLAGSHIP (Engine de Plataforma) ──► Plataforma Insignia     │
+│    - Propiedad Intelectual, Arquitectura Compleja (Python + Dart/Flutter).  │
+│    - Prototipo vivo en producción (Render) para monetización y clientes.   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 🎯 Los 3 Efectos Sociológicos de la Exposición Pública
+
+1. **El Efecto Filtro (Eliminación de Ofertas Precarizadas):**  
+   Al mostrar públicamente un repositorio estructurado con linters, CI/CD y tests, los reclutadores de baja calidad (que buscan programadores baratos a $400 USD) se auto-descartan. Solo se acercan contratantes de alto nivel que entienden el valor de la ingeniería seria.
+
+2. **El Efecto Honeypot (Atracción de Talento y Colaboradores):**  
+   Al publicar un producto funcional en vivo en Render y dejar tickets claros en GitHub (`good first issue`), actúas como un imán para pares técnicos que quieren aprender o colaborar. Tú te posicionas como el **Maintainer / Fundador del Nodo**.
+
+3. **El Apalancamiento en la Negociación Salarial:**  
+   Cuando un contratante te pregunta *"¿Cuánto pides de sueldo?"*, no respondes con un número al azar. Remites a tu matriz de valor de mercado ($1,200–$1,800 USD local / $2,500–$4,500+ USD remoto) respaldado por la evidencia viva en producción de tu Plataforma Insignia y la trazabilidad de `bio-portfolio-hub`.
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)

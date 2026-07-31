@@ -25,6 +25,7 @@
 | Si buscas… | Ve a |
 |------------|------|
 | Cómo debe comportarse un LLM aquí | **[`AGENTS.md`](./AGENTS.md)** |
+| **Guía de Colaboración y Manifiesto** | **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** |
 | **Plan completo con horas medidas** | **[`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md)** ← fuente de verdad operativa |
 | Reglas de nombres y arquitectura | **[`CONVENCIONES.md`](./CONVENCIONES.md)** |
 | **01 Estrategia de Empleo** (Suite 01 al 08) | **[`01_Estrategia/`](./01_Estrategia/)** |

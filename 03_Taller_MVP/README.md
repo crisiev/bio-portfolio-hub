@@ -19,6 +19,7 @@
 3. **Calidad siempre.** Aunque sea práctica, nada cutre: es portafolio. README serio, código limpio, contenedores, deploy real.
 4. **Trabajo por Sprints.** Ciclos cortos (1–2 semanas) con un objetivo y un entregable demostrable. Ver [`TABLERO.md`](./TABLERO.md).
 5. **Todo commiteado.** Cada avance = commit fechado (respalda tu bitácora y tu experiencia).
+6. **El Producto Fundacional como Imán y Nodo de Mercado.** Tu MVP desplegado en vivo (Render) actúa como una demostración de capacidad negociadora. Es el imán para atraer colaboradores técnicos bajo tus propios términos y justificar salarios de mercado ($1,200–$1,800 USD local / $2,500–$4,500+ USD remoto).
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
 
