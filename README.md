@@ -59,7 +59,7 @@
 - [`03_Glosario_Maestro_Bioinformatica.md`](./02_Campana/03_Glosario_Maestro_Bioinformatica.md)
 - [`04_Roadmap_Bioinformatica_Junior.md`](./02_Campana/04_Roadmap_Bioinformatica_Junior.md)
 
-### 🏬 Pilar 3: [`03_Taller_MVP/`](./03_Taller_MVP/) (Producto Commercial)
+### 🏬 Pilar 3: [`03_Taller_MVP/`](./03_Taller_MVP/) (Producto Comercial)
 - [`IDEAS.md`](./03_Taller_MVP/IDEAS.md) · [`TABLERO.md`](./03_Taller_MVP/TABLERO.md) · [`Roadmap_Monetizacion.md`](./03_Taller_MVP/Roadmap_Monetizacion.md) · [`Modelo_de_Valor/`](./03_Taller_MVP/Modelo_de_Valor/README.md)
 
 ### 📓 Pilar 4: [`04_Bitacora/`](./04_Bitacora/) (Registros Fechados & Git)

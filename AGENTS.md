@@ -10,7 +10,7 @@
 - [2. LA MECÁNICA (Regla de Oro — No la rompas)](#2-la-mecánica-regla-de-oro--no-la-rompas)
 - [3. Cómo trabajar en esta codebase](#3-cómo-trabajar-en-esta-codebase)
 - [4. Principios de guía](#4-principios-de-guía)
-- [5. Estado de arranque](#5-estado-de-arranque)
+- [5. Estado de arranque](#5-estado-de-arranque-actualizado-julio-2026)
 - [6. Protocolo de Calibración de Sesión](#6-protocolo-de-calibración-de-sesión)
 
 ---
@@ -62,17 +62,17 @@
 1. **Oriéntate:** lee [`README.md`](./README.md) (el mapa) para saber qué hay y dónde.
 2. **Lee [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md):** es la fuente de verdad operativa. Tiene las 450+ horas medidas ejercicio por ejercicio, semana por semana, con XP y checkpoints. Todo LLM debe leerlo antes de guiar.
 3. **Respeta las convenciones:** ver [`CONVENCIONES.md`](./CONVENCIONES.md) (nomenclatura, estructura, prohibición de `.docx`, límites de archivo y arquitectura modular).
-4. **Exige Código Modular y Profesional:** Cuando guíes a Christian a escribir código Python o pipelines, **nunca permitas scripts monolíticos gigantes de 1,000+ líneas**. Enforma siempre la arquitectura limpia modular (`src/core/`, `src/services/`, `src/api/`, `tests/`) con funciones pequeñas (máximo 200–300 líneas por archivo), type hints y PEP 8.
+4. **Exige Código Modular y Profesional:** Cuando guíes a Christian a escribir código Python o pipelines, **nunca permitas scripts monolíticos gigantes de 1,000+ líneas**. Exige siempre la arquitectura limpia modular (`src/core/`, `src/services/`, `src/api/`, `tests/`) con funciones pequeñas (máximo 200–300 líneas por archivo), type hints y PEP 8.
 5. **Metodología TDD / Contract-First (Red-Green-Refactor):** Antes de escribir cualquier función o endpoint en `src/`, el LLM debe guiar a Christian a definir PRIMERO el test en `tests/`. Se ejecuta el test para certificar que falla (RED), Christian escribe a mano el código mínimo en `src/` para hacerlo pasar (GREEN), y luego refactoriza.
 6. **Estado actual del trabajo** lo encuentras en cuatro lugares vivos:
    - [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md) → sección "Estado Vivo" (rango, XP, horas, próximo ejercicio).
    - `03_Taller_MVP/TABLERO.md` — sprint y tickets MVP en curso.
    - `03_Taller_MVP/Modelo_de_Valor/Modelo_de_Valor_y_Precio.md` — valor acumulado y precio justificado.
    - `04_Bitacora/AAAA-MM.md` — qué hizo Christian por día.
-6. **Al cerrar cualquier avance:** recuérdale registrar (a) el valor en el Modelo de Valor si aplica, (b) la entrada en la Bitácora, (c) el commit de Git, y (d) actualizar la sección "Estado Vivo" de [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md).
-7. **Mantén el foco en el dinero:** cada decisión de producto se juzga por *"¿acerca esto a un usuario que paga?"*. Ver `03_Taller_MVP/Roadmap_Monetizacion.md`.
-8. **Búsqueda Empírica Obligatoria (Anti-Hallucination):** Nunca asumas que un archivo, función o dato no existe. Antes de declarar una ausencia, el LLM DEBE ejecutar un `grep` o búsqueda exhaustiva en todo el workspace.
-9. **Disciplina Multi-Ventana:**
+7. **Al cerrar cualquier avance:** recuérdale registrar (a) el valor en el Modelo de Valor si aplica, (b) la entrada en la Bitácora, (c) el commit de Git, y (d) actualizar la sección "Estado Vivo" de [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md).
+8. **Mantén el foco en el dinero:** cada decisión de producto se juzga por *"¿acerca esto a un usuario que paga?"*. Ver `03_Taller_MVP/Roadmap_Monetizacion.md`.
+9. **Búsqueda Empírica Obligatoria (Anti-Hallucination):** Nunca asumas que un archivo, función o dato no existe. Antes de declarar una ausencia, el LLM DEBE ejecutar un `grep` o búsqueda exhaustiva en todo el workspace.
+10. **Disciplina Multi-Ventana:**
    - Commits quirúrgicos: Prohibición total de usar `git add .` o `git add -A`. Usa siempre `git add <archivo_especifico>` para no arrastrar basura temporal o trabajo a medias de otra ventana.
    - Si un archivo modificado no fue tocado en esta sesión específica, es intocable (WIP de otra sesión). Reporta el cruce.
 

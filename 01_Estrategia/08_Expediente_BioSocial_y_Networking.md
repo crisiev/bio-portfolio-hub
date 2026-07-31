@@ -122,6 +122,6 @@ If you are interested, please send me a DM or leave a comment here!
    Al publicar un producto funcional en vivo en Render y dejar tickets claros en GitHub (`good first issue`), actúas como un imán para pares técnicos que quieren aprender o colaborar. Tú te posicionas como el **Maintainer / Fundador del Nodo**.
 
 3. **El Apalancamiento en la Negociación Salarial:**  
-   Cuando un contratante te pregunta *"¿Cuánto pides de sueldo?"*, no respondes con un número al azar. Remites a tu matriz de valor de mercado ($1,200–$1,800 USD local / $2,500–$4,500+ USD remoto) respaldado por la evidencia viva en producción de tu Plataforma Insignia y la trazabilidad de `bio-portfolio-hub`.
+   Cuando un contratante te pregunta *"¿Cuánto pides de sueldo?"*, no respondes con un número al azar. Remites a tu matriz de valor de mercado ($1,200–$1,800 USD local / $2,500–$4,500+ USD remoto) respaldada por la evidencia viva en producción de tu Plataforma Insignia y la trazabilidad de `bio-portfolio-hub`.
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
