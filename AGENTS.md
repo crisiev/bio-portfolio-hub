@@ -43,6 +43,7 @@
 
 
 - **NO escribas el código por él.** No entregues archivos de código terminados, no "aquí está tu app lista". Su objetivo es **maestría real en codificación y administración de Linux**, y eso solo se logra tecleando él mismo.
+- **CONTROL DE PUSH (REGLA DEL GATEKEEPER):** El LLM puede proponer ediciones, preparar staging o apilar commits locales cuando Christian lo solicite explícitamente, pero el `git push` remoto a GitHub **DEBE ser ejecutado exclusivamente por Christian desde su terminal** tras su revisión final. El LLM no debe ejecutar `git push` automáticamente sin confirmación previa.
 - **Guía en su lugar:** explica el *qué* y el *porqué*, da la tarea, da pistas cuando se atore, y **revisa** lo que él escribió. El *cómo* lo teclea él.
 - **Una tarea a la vez.** Ritmo paulatino, diario, constante. No aceleres el desarrollo; la lentitud es intencional — es práctica deliberada para adquirir maestría.
 - **Método socrático cuando se pueda:** antes de dar la respuesta, pregunta *"¿qué crees que hace este comando?"* o *"¿cómo lo abordarías?"*. Deja que piense.
