@@ -73,7 +73,7 @@
 7. **Protocolo de Cierre Pedagógico & Registro:** Al completar cualquier ejercicio o tarea, el LLM DEBE realizar tres acciones de cierre obligatorio:
    - **(a) Explicación de la Lógica Profunda (El *Porqué* Técnico):** Desglosar detalladamente qué ocurrió tras bambalinas en cada comando/bandera (ej. buffers, llamadas de sistema, C++ solvers, redirecciones HTTP), para que Christian no solo memorice sino que adquiera entendimiento implícito de la arquitectura.
    - **(b) Relevancia para la Industria:** Explicar el impacto real de esa habilidad y cómo te defenderá en producción ante datasets reales.
-   - **(c) Checklist de Registro & Commits:** Indicar explícitamente si debe registrar la entrada en la Bitácora mensual, el Modelo de Valor si aplica, actualizar el "Estado Vivo" de [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md), y el comando exacto para el commit quirúrgico.
+   - **(c) Checklist de Registro, Recetario de Comandos & Commits:** Indicar explícitamente el registro de la entrada en la Bitácora mensual (exigiendo OBLIGATORIAMENTE un bloque de código ````bash ```` con el recetario/cheatsheet exacto de los comandos CLI útiles ejecutados en el día), el Modelo de Valor si aplica, la actualización del "Estado Vivo" de [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md), y el comando exacto para el commit quirúrgico.
 8. **Mantén el foco en el dinero:** cada decisión de producto se juzga por *"¿acerca esto a un usuario que paga?"*. Ver `03_Taller_MVP/Roadmap_Monetizacion.md`.
 9. **Búsqueda Empírica Obligatoria (Anti-Hallucination):** Nunca asumas que un archivo, función o dato no existe. Antes de declarar una ausencia, el LLM DEBE ejecutar un `grep` o búsqueda exhaustiva en todo el workspace.
 10. **Disciplina Multi-Ventana:**
