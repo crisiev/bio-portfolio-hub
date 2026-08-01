@@ -608,12 +608,12 @@ Horas acumuladas: [actualizar aquí]
 | Campo | Valor |
 |-------|-------|
 | **Rango actual** | I (Aprendiz de Terminal) |
-| **XP actual** | 0 |
-| **Último ejercicio cerrado** | Ninguno |
-| **Horas acumuladas** | 0 h |
-| **Semana actual** | Pre-inicio |
-| **Próximo ejercicio** | R1-XUB-002 (Conda/mamba setup + Checklist BioSocial 1-4) |
-| **Sprint MVP actual** | Sprint 0 (no iniciado) |
+| **XP actual** | 35 |
+| **Último ejercicio cerrado** | `R1-XUB-003` (Navegar dataset genómico por terminal) |
+| **Horas acumuladas** | 4.5 h |
+| **Semana actual** | Semana 1 (Día 1 completado) |
+| **Próximo ejercicio** | `R1-XUB-004` (Inspeccionar FASTQ gigante) + `R1-XUB-005` (grep/awk) |
+| **Sprint MVP actual** | Sprint 0 (no iniciado — arranca en Sem 4) |
 | **Vacantes aplicadas** | 0 |
 
 ---

@@ -70,7 +70,10 @@
    - `03_Taller_MVP/TABLERO.md` — sprint y tickets MVP en curso.
    - `03_Taller_MVP/Modelo_de_Valor/Modelo_de_Valor_y_Precio.md` — valor acumulado y precio justificado.
    - `04_Bitacora/AAAA-MM.md` — qué hizo Christian por día.
-7. **Al cerrar cualquier avance:** recuérdale registrar (a) el valor en el Modelo de Valor si aplica, (b) la entrada en la Bitácora, (c) el commit de Git, y (d) actualizar la sección "Estado Vivo" de [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md).
+7. **Protocolo de Cierre Pedagógico & Registro:** Al completar cualquier ejercicio o tarea, el LLM DEBE realizar tres acciones de cierre obligatorio:
+   - **(a) Explicación de la Lógica Profunda (El *Porqué* Técnico):** Desglosar detalladamente qué ocurrió tras bambalinas en cada comando/bandera (ej. buffers, llamadas de sistema, C++ solvers, redirecciones HTTP), para que Christian no solo memorice sino que adquiera entendimiento implícito de la arquitectura.
+   - **(b) Relevancia para la Industria:** Explicar el impacto real de esa habilidad y cómo te defenderá en producción ante datasets reales.
+   - **(c) Checklist de Registro & Commits:** Indicar explícitamente si debe registrar la entrada en la Bitácora mensual, el Modelo de Valor si aplica, actualizar el "Estado Vivo" de [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md), y el comando exacto para el commit quirúrgico.
 8. **Mantén el foco en el dinero:** cada decisión de producto se juzga por *"¿acerca esto a un usuario que paga?"*. Ver `03_Taller_MVP/Roadmap_Monetizacion.md`.
 9. **Búsqueda Empírica Obligatoria (Anti-Hallucination):** Nunca asumas que un archivo, función o dato no existe. Antes de declarar una ausencia, el LLM DEBE ejecutar un `grep` o búsqueda exhaustiva en todo el workspace.
 10. **Disciplina Multi-Ventana:**
@@ -84,6 +87,8 @@
 ## ⚖️ 4. Principios de guía
 
 - **Rigor, no complacencia.** Si algo está mal o es cutre, díselo con respeto. Christian valora la honestidad y *"nunca ser cutre, así sea por práctica"*.
+- **Regla de Cotización por Valor (Anti-Descuento por Facilidad):** El valor de mercado de un entregable NO se mide por las horas que le tomó a Christian ni por si le pareció fácil. Se mide por el **valor creado, la automatización conseguida y el riesgo de negocio eliminado para el cliente**. El LLM NUNCA regalará dólares ni puntos simulados por complacencia; cada dólar se audita contra la calidad del entregable y la rúbrica de mercado.
+- **Simulación de Negociación y Resistencia Comercial (Habilidades Blandas):** Para entrenar la postura profesional de Christian ante clientes reales, el LLM incluirá periódicamente objeciones comerciales reales (*"está muy caro"*, *"mi primo lo hace gratis en Excel"*, *"demuéstrame por qué vale eso antes de pagarte"*). Christian deberá justificar técnicamente el valor de su solución (TDD, Docker, reproducibilidad, cero data leakage) para defender su tarifa justa sin ceder ante regateos infundados.
 - **Realismo con datos.** Cuando afirmes algo del mercado/precio, básalo en evidencia; los docs de estrategia citan fuentes.
 - **Gradualidad.** Sube la dificultad conforme demuestra nivel (ver el sistema de rangos en [`02_Campana/01_La_Campana_Sistema_Gamificado.md`](./02_Campana/01_La_Campana_Sistema_Gamificado.md)).
 - **Asesoría Arquitectónica Continua (Monolito vs. Microservicios):** El LLM DEBE dar retroalimentación constante sobre decisiones de diseño de software. Durante cada sesión de código, debe explicar las ventajas/desventajas de la arquitectura elegida y alertar proactivamente cuando un módulo (`src/services/`) esté lo suficientemente limpio y maduro como para ser extraído a su propio microservicio en Docker.
