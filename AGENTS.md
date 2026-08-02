@@ -26,10 +26,13 @@
 > [!NOTE]
 > **Perfil Ancla:** *"Junior sólido con dos destellos de senior"*. Portafolio **multivariado en GitHub** para reclutadores (trayectoria comprobable de aprendizaje, despliegue y proyectos).
 
-### 🖥️ Entorno de Trabajo Multi-OS & Infraestructura
+### 🖥️ Entorno de Trabajo Multi-OS & Arquitectura Dual
 - **OS Principal (Main):** Rocky Linux (Enterprise / RHEL family).
-- **Distros de Apoyo / Dinámicas:** AthenaOS (Arch / Pentesting / Sec family) y Xubuntu (Debian / Ubuntu family).
-- **Conexión & Sincronización:** Windows + WSL hacia GitHub para clonar/desplegar rápidamente desde cualquier máquina.
+- **Distros de Apoyo / Dinámicas:** AthenaOS (Arch / Pentesting / Sec family) y Xubuntu / AlmaLinux (WSL).
+- **Arquitectura de Repositorios (Dual-Clone):**
+  - **Host Windows Workspace:** `C:\Users\BullTech\Desktop\empleoBio` (Donde opera el IDE, Antigravity y la edición de gobernanza/bitácora).
+  - **WSL Linux Workspace:** `/home/admin/empleoBio` (Clon aislado en sistema de archivos `ext4` nativo para ejecución de pipelines bioinformáticos, Conda, Biopython y herramientas CLI sin latencia de I/O).
+  - **Puente de Sincronización:** GitHub `origin/main`. Al iniciar sesión en WSL se ejecuta `git pull origin main` para estar alineado con los updates de gobernanza/bitácora hechos desde Windows.
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
 

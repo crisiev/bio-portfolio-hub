@@ -608,11 +608,11 @@ Horas acumuladas: [actualizar aquí]
 | Campo | Valor |
 |-------|-------|
 | **Rango actual** | I (Aprendiz de Terminal) |
-| **XP actual** | 35 |
-| **Último ejercicio cerrado** | `R1-XUB-003` (Navegar dataset genómico por terminal) |
-| **Horas acumuladas** | 4.5 h |
-| **Semana actual** | Semana 1 (Día 1 completado) |
-| **Próximo ejercicio** | `R1-XUB-004` (Inspeccionar FASTQ gigante) + `R1-XUB-005` (grep/awk) |
+| **XP actual** | 85 |
+| **Último ejercicio cerrado** | `R1-XUB-005` (Contar lecturas y extraer IDs con grep/awk) |
+| **Horas acumuladas** | 10.5 h |
+| **Semana actual** | Semana 1 (Día 2 completado) |
+| **Próximo ejercicio** | `R1-ROSA-01` (Rosalind ADN/ARN) + `R1-ROSA-02` (GC/Hamming) + `R1-XUB-010` (Permisos) |
 | **Sprint MVP actual** | Sprint 0 (no iniciado — arranca en Sem 4) |
 | **Vacantes aplicadas** | 0 |
 
