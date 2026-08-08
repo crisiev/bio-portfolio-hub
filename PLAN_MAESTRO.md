@@ -608,11 +608,11 @@ Horas acumuladas: [actualizar aquí]
 | Campo | Valor |
 |-------|-------|
 | **Rango actual** | I (Aprendiz de Terminal) |
-| **XP actual** | 85 |
-| **Último ejercicio cerrado** | `R1-XUB-005` (Contar lecturas y extraer IDs con grep/awk) |
-| **Horas acumuladas** | 10.5 h |
-| **Semana actual** | Semana 1 (Día 2 completado) |
-| **Próximo ejercicio** | `R1-ROSA-01` (Rosalind ADN/ARN) + `R1-ROSA-02` (GC/Hamming) + `R1-XUB-010` (Permisos) |
+| **XP actual** | 320 |
+| **Último ejercicio cerrado** | `R1-XUB-008` (Configurar Git y SSH keys en WSL/Windows) |
+| **Horas acumuladas** | 34.25 h |
+| **Semana actual** | **Semana 2 COMPLETADA** ✅ (y `R1-XUB-008` validado) |
+| **Próximo ejercicio** | `R1-XUB-009` (Publicar repo P1 en GitHub con README profesional, 5.0 h, +50 XP) |
 | **Sprint MVP actual** | Sprint 0 (no iniciado — arranca en Sem 4) |
 | **Vacantes aplicadas** | 0 |
 
