@@ -608,11 +608,11 @@ Horas acumuladas: [actualizar aquí]
 | Campo | Valor |
 |-------|-------|
 | **Rango actual** | I (Aprendiz de Terminal) |
-| **XP actual** | 320 |
-| **Último ejercicio cerrado** | `R1-XUB-008` (Configurar Git y SSH keys en WSL/Windows) |
-| **Horas acumuladas** | 34.25 h |
-| **Semana actual** | **Semana 2 COMPLETADA** ✅ (y `R1-XUB-008` validado) |
-| **Próximo ejercicio** | `R1-XUB-009` (Publicar repo P1 en GitHub con README profesional, 5.0 h, +50 XP) |
+| **XP actual** | 370 |
+| **Último ejercicio cerrado** | `R1-XUB-009` (Proyecto P1 `seq-stats` + CLI + Pytest) |
+| **Horas acumuladas** | 39.25 h |
+| **Semana actual** | **Semana 3 Día 1 COMPLETADO** ✅ (`R1-XUB-009` cerrado) |
+| **Próximo ejercicio** | `R1-XUB-012` (**GitHub Profile README `crisiev/crisiev`**, 2.5 h, +25 XP) |
 | **Sprint MVP actual** | Sprint 0 (no iniciado — arranca en Sem 4) |
 | **Vacantes aplicadas** | 0 |
 

@@ -103,7 +103,7 @@ empleoBio/
 ## ▶️ 4. Estado Actual y Próximo Paso
 
 > [!TIP]
-> **Rango Actual:** Rango I (Aprendiz de Terminal) · **XP:** 0 · **Siguiente Tarea:** `R1-XUB-002` (Setup Conda/WSL) + Checkpoints BioSocial 1-4.
+> **Rango Actual:** Rango I (Aprendiz de Terminal) · **XP:** 370 / 600 · **Siguiente Tarea:** `R1-XUB-012` (**GitHub Profile README `crisiev/crisiev`**).
 
 - **Plan Maestro:** [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md) — **404.5 horas calendarizadas**, 56 ejercicios + 5 jefes en 25 semanas. Fuente de verdad operativa.
 - **Empleo:** Plan completo en [`01_Estrategia/`](./01_Estrategia/). Falta ejecutar Rango I.

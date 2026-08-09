@@ -8,10 +8,10 @@
 | Campo | Valor |
 |---|---|
 | Rango actual | I — Aprendiz de Terminal |
-| XP actual | 320 |
-| Último ejercicio cerrado | `R1-XUB-008` — Inicializar Git, commits limpios y SSH keys en WSL |
-| Próximo ejercicio | `R1-XUB-009` — Publicar repo en GitHub con README profesional |
-| Siguiente bloque | `R1-XUB-012` (GitHub Profile README crisiev/crisiev) |
+| XP actual | 370 |
+| Último ejercicio cerrado | `R1-XUB-009` — Publicar repo P1 (`seq-stats`) en GitHub con README profesional |
+| Próximo ejercicio | `R1-XUB-012` — GitHub Profile README (`crisiev/crisiev`) |
+| Siguiente bloque | `R1-XUB-011` (Bash QC de muestras en lote) |
 
 > El orden cronológico lo define el calendario del Plan Maestro, no la numeración del ticket. Por eso el primer ejercicio fue `R1-XUB-002`.
 
@@ -19,7 +19,7 @@
 
 | Rango | Unidades | XP al cerrar | Estado |
 |---|---:|---:|---|
-| I — Aprendiz de Terminal | 15 ejercicios + 1 jefe | 600 | En curso (320 / 600 XP) |
+| I — Aprendiz de Terminal | 15 ejercicios + 1 jefe | 600 | En curso (370 / 600 XP) |
 | II — Domador de Secuencias | 11 ejercicios + 1 jefe | 650 | Bloqueado hasta Rango I |
 | III — Arquitecto de Flujos | 11 ejercicios + 1 jefe | 825 | Bloqueado hasta Rango II |
 | IV — Guardián de Datos | 10 ejercicios + 1 jefe | 875 | Bloqueado hasta Rango III |
@@ -42,8 +42,9 @@
 | `R1-XUB-001` | 2026-08-07 | 50 | FastQC/MultiQC en `scratch/qc_test` y dictamen bioinformáticos sobre Phred Q30 | Distinguir artefactos de %GC/primers vs fallos reales de la celdilla de flujo Illumina |
 | `R1-XUB-007` | 2026-08-07 | 50 | Script `clean_metadata.py`: estandarización `.str.lower()`, filtrado `dropna` y `groupby` | Preparación de samplesheets sin nulos ni incoherencias de texto para pipelines NGS |
 | `R1-XUB-008` | 2026-08-07 | 25 | Claves SSH `WSL-AlmaLinux` y `PowerShell-Windows11` vinculadas en GitHub | Autenticación criptográfica ed25519 activa para push directo sin passwords |
+| `R1-XUB-009` | 2026-08-09 | 50 | Paquete `src/seq_stats/`, CLI `cli.py` y suite `pytest` verificada en verde (`4 passed`) | La separación de la interfaz CLI respecto a la lógica pura permite la reutilización e inmunidad de tests |
 
-**XP total actual:** 320  
+**XP total actual:** 370  
 **Rango:** I — Aprendiz de Terminal
 
 Al cerrar cada ejercicio, actualiza esta fila, la sección **Estado Vivo** del Plan Maestro, la bitácora mensual y el commit quirúrgico correspondiente.
