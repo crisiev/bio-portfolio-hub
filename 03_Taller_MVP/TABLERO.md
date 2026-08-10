@@ -19,7 +19,6 @@
 ## 📋 1. Columnas del Tablero Kanban
 
 ### 📥 Backlog (Por hacer)
-- [ ] `MVP-001` — Elegir la idea (ver [`IDEAS.md`](./IDEAS.md))
 - [ ] `MVP-002` — Definir el "trabajo pequeño" que resuelve (una sola cosa)
 - [ ] `MVP-003` — Montar entorno: Python + FastAPI + Docker (primer "hola mundo" contenerizado)
 - [ ] `MVP-004` — Crear repo en GitHub con README serio
@@ -30,6 +29,7 @@
 - [/] `INFRA-001` — Configurar WSL + Git SSH + Sincronización Multi-OS (Rocky Linux Main / AthenaOS / Xubuntu) para Portafolio Multivariado en GitHub.
 
 ### ✅ Hecho
+- [x] `MVP-001` — Idea seleccionada (`IDEA-01` Asistente de Estadística para Tesis) y microservicio base en FastAPI verificado respondiendo HTTP 200 OK en `http://localhost:8000/` (2026-08-10)
 - [x] Carpeta y sistema de taller creados (2026-07-28)
 - [x] Plan Maestro calendarizado a 404.5 h de trabajo programado (2026-07-29)
 - [x] Scaffold técnico FastAPI creado; sin validación comercial ni avance de Sprint (2026-07-29)

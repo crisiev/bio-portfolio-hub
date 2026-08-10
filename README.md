@@ -103,12 +103,12 @@ empleoBio/
 ## ▶️ 4. Estado Actual y Próximo Paso
 
 > [!TIP]
-> **Rango Actual:** Rango I (Aprendiz de Terminal) · **XP:** 370 / 600 · **Siguiente Tarea:** `R1-XUB-012` (**GitHub Profile README `crisiev/crisiev`**).
+> **Rango Actual:** Rango I (Aprendiz de Terminal) · **XP:** 445 / 600 · **Semana 4 EN CURSO (Día 1 completado)** · **Siguiente Tarea:** `R1-BOSS-01` (Día 2: Redacción final de badges/docs + Cierre de Rango I con +250 XP).
 
+- **Proyecto P1 Destacado (`src/seq_stats`):** Toolkit modular en Python y CLI para cálculo de N50/L50, %GC, complemento reverso y distancia Hamming. Verificado con `pytest` (`4 passed in 0.36s`) y entorno reproducible `environment.yml`.
 - **Plan Maestro:** [`PLAN_MAESTRO.md`](./PLAN_MAESTRO.md) — **404.5 horas calendarizadas**, 56 ejercicios + 5 jefes en 25 semanas. Fuente de verdad operativa.
-- **Empleo:** Plan completo en [`01_Estrategia/`](./01_Estrategia/). Falta ejecutar Rango I.
-- **Producto:** Estructura lista en [`03_Taller_MVP/`](./03_Taller_MVP/). MVP arranca en Semana 4 del Plan Maestro.
-- **Infraestructura:** WSL2 + AlmaLinux-9 + Git SSH operativo + repo `bio-portfolio-hub` en GitHub.
-- **Regla de oro diaria:** Cada día, algo nuevo escrito a mano + un commit. La constancia visible gana.
+- **Empleo:** Plan completo en [`01_Estrategia/`](./01_Estrategia/).
+- **Producto:** Estructura lista en [`03_Taller_MVP/`](./03_Taller_MVP/). MVP arranca en Semana 4 Día 3 con `MVP-001`.
+- **Infraestructura:** WSL2 + AlmaLinux-9 + Git SSH activo + repo `bio-portfolio-hub` en GitHub.
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)

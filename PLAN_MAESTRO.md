@@ -607,13 +607,13 @@ Horas acumuladas: [actualizar aquí]
 
 | Campo | Valor |
 |-------|-------|
-| **Rango actual** | I (Aprendiz de Terminal) |
-| **XP actual** | 370 |
-| **Último ejercicio cerrado** | `R1-XUB-009` (Proyecto P1 `seq-stats` + CLI + Pytest) |
-| **Horas acumuladas** | 39.25 h |
-| **Semana actual** | **Semana 3 Día 1 COMPLETADO** ✅ (`R1-XUB-009` cerrado) |
-| **Próximo ejercicio** | `R1-XUB-012` (**GitHub Profile README `crisiev/crisiev`**, 2.5 h, +25 XP) |
-| **Sprint MVP actual** | Sprint 0 (no iniciado — arranca en Sem 4) |
+| **Rango actual** | **II (Domador de Secuencias) ⚔️** |
+| **XP actual** | **720** (🏆 Rango I Completo + R2-XUB-001 cerrado) |
+| **Último ejercicio cerrado** | `R2-XUB-001` (Trimming NGS `fastp`) & `MVP-001` (Microservicio FastAPI `Thesis Stat Assistant`) |
+| **Horas acumuladas** | **63.0 h** |
+| **Semana actual** | **Semana 4 COMPLETADA AL 100%** ✅ (Días 1, 2 y 3 cerrados) |
+| **Próximo ejercicio** | `R2-XUB-002` (Genoma de referencia e indexación, 3 h) + `MVP-002` (Tm Biopython, 2.5 h) |
+| **Sprint MVP actual** | Sprint 0 (En Curso — `MVP-001` cerrado) |
 | **Vacantes aplicadas** | 0 |
 
 ---
