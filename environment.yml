@@ -1,0 +1,11 @@
+name: bio-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - biopython>=1.81
+  - pandas>=2.0.0
+  - pytest>=7.4.0
+  - fastqc>=0.12.1
