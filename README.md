@@ -1,3 +1,27 @@
+# 🧬 `seq-stats` — Toolkit Bioinformático de Secuencias & Métricas de Ensamblaje (P1)
+
+![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)
+![Build Status](https://img.shields.io/badge/tests-passing-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Bioinformatics](https://img.shields.io/badge/domain-NGS%20%26%20Genomics-orange.svg)
+
+`seq-stats` es un paquete modular en Python y herramienta CLI diseñada para el análisis de secuencias genómicas, cálculo de métricas de calidad de ensamblaje (*N50 / L50*), contenido %GC, distancia Hamming y control de calidad NGS.
+
+---
+
+## 🚀 Quickstart & Instalación
+
+### 1. Clonar el Repositorio y Crear el Entorno
+```bash
+git clone https://github.com/crisiev/bio-portfolio-hub.git
+cd bio-portfolio-hub
+mamba env create -f environment.yml
+conda activate bio-env
+
+
+
+
+
 # 🧬 empleoBio — Codebase Fundacional de Christian
 
 > [!IMPORTANT]
