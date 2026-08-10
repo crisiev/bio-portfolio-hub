@@ -1,4 +1,6 @@
 """FastAPI Application Main Entry Point."""
+from fastapi import Query
+from src.services.tm_calculator import calculate_tm
 
 from fastapi import FastAPI
 
@@ -20,4 +22,17 @@ def health_check():
         "status": "healthy",
         "service": settings.PROJECT_NAME,
         "version": settings.VERSION,
+    }
+@app.get("/tm")
+def get_tm(secuencia: str = Query(..., description="Secuencia de ADN a calcular")):
+    """
+    Recibe una secuencia de ADN por URL, la normaliza a mayúsculas,
+    y devuelve su Temperatura de Fusión (Tm).
+    """
+    sec_upper = secuencia.upper()
+    tm_val = calculate_tm(sec_upper)
+    
+    return {
+        "secuencia": sec_upper,
+        "tm_wallace": tm_val
     }
