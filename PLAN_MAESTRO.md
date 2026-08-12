@@ -608,12 +608,12 @@ Horas acumuladas: [actualizar aquí]
 | Campo | Valor |
 |-------|-------|
 | **Rango actual** | **II (Domador de Secuencias) ⚔️** |
-| **XP actual** | **745** (🏆 Rango I Completo + R2-XUB-001 + R2-XUB-002 cerrados) |
-| **Último ejercicio cerrado** | `R2-XUB-002` (Genoma indexación BWA) & `MVP-002` + `MVP-003` (API Tm Biopython) |
-| **Horas acumuladas** | **68.5 h** |
-| **Semana actual** | **Semana 5 Día 1 COMPLETADA AL 100%** ✅ |
-| **Próximo ejercicio** | `R2-XUB-003` (Alineamiento BWA: interpretar tasa de mapeo, 5.5 h) |
-| **Sprint MVP actual** | Sprint 0 (En Curso — `MVP-001`, `MVP-002`, `MVP-003` cerrados) |
+| **XP actual** | **800** (🏆 Rango I Completo + R2-XUB-001/002/003 cerrados) |
+| **Último ejercicio cerrado** | `MVP-004/005` (Vitrina Comercial y Técnica) |
+| **Horas acumuladas** | **77.0 h** |
+| **Semana actual** | **Semana 5 Día 3 COMPLETADA AL 100%** ✅ |
+| **Próximo ejercicio** | `MVP-006` (Hablar con 3 usuarios potenciales) |
+| **Sprint MVP actual** | Sprint 0 (En Curso — `MVP-004`, `MVP-005` cerrados) |
 | **Vacantes aplicadas** | 0 |
 
 ---

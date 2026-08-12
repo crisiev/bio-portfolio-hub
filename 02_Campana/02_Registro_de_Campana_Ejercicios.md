@@ -40,8 +40,9 @@
 | `R1-XUB-011` | 2026-08-09 | 50 | Script `scripts/auto_qc.sh` e integración con `scripts/audit_qc.py` parseando JSON | La combinación de orquestación Shell con parsing CPython permite crear pipelines autónomos con decisión de paso/fallo |
 | `R1-BOSS-01` | 2026-08-10 | 250 | Clean Architecture `src/seq_stats/`, `pytest.ini`, `environment.yml` declarativo y commit `a993d83` | La victoria en la auditoría hostil depende de la reproducibilidad 1-click y la suite de pruebas unitarias al 100% |
 | `R2-XUB-002` | 2026-08-10 | 25 | Descarga e indexación del genoma de referencia *E. coli* con Transformada de Burrows-Wheeler (`bwa index`) | Conocer la estructura interna del FM-index evita errores críticos de despliegue en HPC al alinear FASTQs masivos |
+| `R2-XUB-003` | 2026-08-11 | 55 | Alineamiento NGS con `bwa mem`, conversión a BAM y QC de mapeo con `samtools flagstat` | Manejar la conversión texto-binario (SAM/BAM) es fundamental para evitar cuellos de botella de I/O en bioinformática |
 
-**XP total actual:** 745  
+**XP total actual:** 800  
 **Rango:** II — Domador de Secuencias (DESBLOQUEADO ⚔️)
 
 Al cerrar cada ejercicio, actualiza esta fila, la sección **Estado Vivo** del Plan Maestro, la bitácora mensual y el commit quirúrgico correspondiente.
