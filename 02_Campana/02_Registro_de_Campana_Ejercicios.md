@@ -7,11 +7,11 @@
 
 | Campo | Valor |
 |---|---|
-| Rango actual | I — Aprendiz de Terminal |
-| XP actual | 445 |
-| Último ejercicio cerrado | `R1-XUB-011` — Script Bash automatizado para QC de muestras en lote + auditoría Q30 |
-| Próximo ejercicio | `R1-BOSS-01` — ☠ **EL REPOSITORIO FANTASMA** (Auditoría Hostil de Portafolio) |
-| Siguiente bloque | Semana 4 Día 1 |
+| Rango actual | II — Domador de Secuencias ⚔️ |
+| XP actual | 900 |
+| Último ejercicio cerrado | `R2-XUB-005` — samtools sort, index, flagstat, idxstats y filtrado por banderas bitwise |
+| Próximo ejercicio | `R2-XUB-006` — Variant calling GATK HaplotypeCaller (Best Practices) |
+| Siguiente bloque | Semana 7 Día 1 |
 
 > El orden cronológico lo define el calendario del Plan Maestro, no la numeración del ticket. Por eso el primer ejercicio fue `R1-XUB-002`.
 
@@ -19,12 +19,12 @@
 
 | Rango | Unidades | XP al cerrar | Estado |
 |---|---:|---:|---|
-| I — Aprendiz de Terminal | 15 ejercicios + 1 jefe | 600 | En curso (445 / 600 XP) |
-| II — Domador de Secuencias | 11 ejercicios + 1 jefe | 650 | Bloqueado hasta Rango I |
+| I — Aprendiz de Terminal | 15 ejercicios + 1 jefe | 600 | **COMPLETO (600 / 600 XP)** ✅ |
+| II — Domador de Secuencias | 11 ejercicios + 1 jefe | 650 | En curso (300 / 650 XP) |
 | III — Arquitecto de Flujos | 11 ejercicios + 1 jefe | 825 | Bloqueado hasta Rango II |
-| IV — Guardián de Datos | 10 ejercicios + 1 jefe | 875 | Bloqueado hasta Rango III |
-| V — Cazador de Dragones | 9 ejercicios + 1 jefe | 900 | Bloqueado hasta Rango IV |
-| **Total** | **56 ejercicios + 5 jefes** | **3,850** | — |
+| IV — Guardián Cloud & Single-Cell Genomics | 10 ejercicios + 1 jefe | 875 | Bloqueado hasta Rango III |
+| V — Cazador Multi-Ómico & El Dragón | 10 ejercicios + 1 jefe | 900 | Bloqueado hasta Rango IV |
+| **Total** | **57 ejercicios + 5 jefes** | **3,850** | — |
 
 ## Bitácora de progreso
 
@@ -41,8 +41,12 @@
 | `R1-BOSS-01` | 2026-08-10 | 250 | Clean Architecture `src/seq_stats/`, `pytest.ini`, `environment.yml` declarativo y commit `a993d83` | La victoria en la auditoría hostil depende de la reproducibilidad 1-click y la suite de pruebas unitarias al 100% |
 | `R2-XUB-002` | 2026-08-10 | 25 | Descarga e indexación del genoma de referencia *E. coli* con Transformada de Burrows-Wheeler (`bwa index`) | Conocer la estructura interna del FM-index evita errores críticos de despliegue en HPC al alinear FASTQs masivos |
 | `R2-XUB-003` | 2026-08-11 | 55 | Alineamiento NGS con `bwa mem`, conversión a BAM y QC de mapeo con `samtools flagstat` | Manejar la conversión texto-binario (SAM/BAM) es fundamental para evitar cuellos de botella de I/O en bioinformática |
+| `R2-XUB-004` | 2026-08-12 | 50 | Alineamiento RNA-seq 2-Pass con `STAR`, indexación con anotación GTF e igualación de nomenclaturas con `sed` | Los alineadores con capacidad de empalme (*spliced aligners*) requieren sincronización exacta entre la cabecera FASTA y la primera columna del GTF |
+| `R2-XUB-005` | 2026-08-12 | 50 | Indexación espacial `.bai`, inspección de cabeceras SAM/BAM (`@HD`, `@SQ`) y filtrado bitwise con `samtools view -F 4 -q 30` | El filtrado bitwise por banderas y MAPQ es el paso estandarizado para limpiar alineamientos antes del llamamiento de variantes y cuantificación |
+| `R2-XUB-006` | 2026-08-12 | 100 | Pipeline GATK Best Practices: `.dict` / `MarkDuplicates` / `HaplotypeCaller` (Modo gVCF) | El BAM clínico exige orden `SO:coordinate` y `@RG` obligatorios; GATK aborta si los metadatos o las carpetas de output no existen. |
+| `R2-XUB-007` | 2026-08-12 | 50 | Filtrado de VCF (Hard Filtering) y estadísticas bayesianas con `bcftools filter` | El `PERCENT_DUPLICATION` fue 0% por ser un dataset de prueba. La sintaxis de corte (QUAL < 30) elimina falsos positivos en variantes. |
 
-**XP total actual:** 800  
-**Rango:** II — Domador de Secuencias (DESBLOQUEADO ⚔️)
+**XP total actual:** 1050  
+**Rango:** II — Domador de Secuencias (EN CURSO ⚔️)
 
 Al cerrar cada ejercicio, actualiza esta fila, la sección **Estado Vivo** del Plan Maestro, la bitácora mensual y el commit quirúrgico correspondiente.

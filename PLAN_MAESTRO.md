@@ -13,22 +13,26 @@
 ## 📑 Tabla de Contenidos
 - [1. Dashboard de Totalidad](#-dashboard-de-totalidad)
 - [2. Tabla de Conversión Dificultad → Horas](#-tabla-de-conversión-dificultad--horas)
-- [3. Inventario Completo con Horas Medidas](#-inventario-completo-con-horas-medidas)
+- [3. Inventario Completo: Línea Troncal de Empleabilidad (Rangos I a V)](#-inventario-completo-línea-troncal-de-empleabilidad-rangos-i-a-v)
   - [RANGO I — Aprendiz de Terminal 🗡️](#rango-i--aprendiz-de-terminal-️)
   - [RANGO II — Domador de Secuencias ⚔️](#rango-ii--domador-de-secuencias-️)
   - [RANGO III — Arquitecto de Flujos 🛡️](#rango-iii--arquitecto-de-flujos-️)
-  - [RANGO IV — Guardián de Datos 🔐](#rango-iv--guardián-de-datos-)
-  - [RANGO V — Cazador de Dragones 🐉](#rango-v--cazador-de-dragones-)
-- [4. Ecosistema BioSocial](#-ecosistema-biosocial-comunidades-networking-e-inglés-c1)
-- [5. Resumen de Carga por Rango](#-resumen-de-carga-por-rango)
-- [6. Carril Paralelo: Taller MVP](#-carril-paralelo-taller-mvp-producto-vendible)
-- [7. Proyectos Diferenciales](#-proyectos-diferenciales-opcionales-post-rango-v)
-- [8. Gran Total de Horas](#️-gran-total-de-horas)
-- [9. Cronograma Semana por Semana](#-cronograma-semana-por-semana)
-- [10. Mapa Cruzado: Materias Universitarias](#-mapa-cruzado-materias-universitarias--rangos)
-- [11. Autoevaluación & Checkpoints](#-autoevaluación-checkpoints-obligatorios)
-- [12. Protocolo de Continuidad](#-protocolo-de-continuidad-para-cualquier-llm-futuro)
-- [13. Estado Vivo](#-13-estado-vivo)
+  - [RANGO IV — Guardián Cloud & Single-Cell Genomics 🧬☁️](#rango-iv--guardián-cloud--single-cell-genomics-️)
+  - [RANGO V — Cazador Multi-Ómico & El Dragón 🐉](#rango-v--cazador-multi-ómico--el-dragón-)
+- [4. Módulos Electivos & Anexo de Curiosidad Técnica 📦](#-módulos-electivos--anexo-de-curiosidad-técnica-)
+  - [Anexo A: Hardening & DevSecOps (AthenaOS, LUKS, GPG) 🔐](#anexo-a-hardening--devsecops-athenaos-luks-gpg-)
+  - [Anexo B: Machine Learning Teórico & Tuning Avanzado 🤖](#anexo-b-machine-learning-teórico--tuning-avanzado-)
+- [5. Ecosistema BioSocial](#-ecosistema-biosocial-comunidades-networking-e-inglés-c1)
+- [6. Resumen de Carga por Rango](#-resumen-de-carga-por-rango)
+- [7. Carril Paralelo: Taller MVP](#-carril-paralelo-taller-mvp-producto-vendible)
+- [8. Proyectos Diferenciales](#-proyectos-diferenciales-opcionales-post-rango-v)
+- [9. Gran Total de Horas](#️-gran-total-de-horas)
+- [10. Cronograma Semana por Semana](#-cronograma-semana-por-semana)
+- [11. Mapa Cruzado: Materias Universitarias](#-mapa-cruzado-materias-universitarias--rangos)
+- [12. Rúbrica Mecánica de Evaluación & Grados Salariales](#-rúbrica-mecánica-de-evaluación--grados-salariales)
+- [13. Autoevaluación & Checkpoints](#-autoevaluación-checkpoints-obligatorios)
+- [14. Protocolo de Continuidad](#-protocolo-de-continuidad-para-cualquier-llm-futuro)
+- [15. Estado Vivo](#-15-estado-vivo)
 
 ---
 
@@ -151,52 +155,71 @@ Cada ejercicio del Registro de Campaña tiene una dificultad (★). Esta tabla d
 
 ---
 
-### RANGO IV — Guardián de Datos 🔐
+### RANGO IV — Guardián Cloud & Single-Cell Genomics 🧬☁️
 
-**Dominio:** Cloud + Seguridad clínica · **Distros:** Rocky + AthenaOS
-**Proyecto de Portafolio asociado:** P4 (Despliegue en Cloud)
-**Materias que refuerza:** Regulación de la Biotecnología (6º), Diagnóstico Molecular (7º, adelanto)
+**Dominio:** Single-Cell Genomics (scRNA-seq) + Cloud AWS Nativo + Privacidad Clínica · **Distros:** Xubuntu + Rocky Linux
+**Proyecto de Portafolio asociado:** P4 (Despliegue AWS Cloud + Single-Cell Pipeline)
+**Materias que refuerza:** Genómica Estructural y Funcional (5º), Regulación de Biotecnología (6º), Diagnóstico Molecular (7º)
 
 | Código | Ejercicio | ★ | Horas | Dominio Glosario |
 |--------|-----------|---|-------|-------------------|
-| R4-ATH-001 | Hardening básico en AthenaOS | ★★★★ | **8 h** | D7-Seguridad: hardening |
-| R4-ATH-002 | Cifrar volumen de datos de pacientes (LUKS) | ★★★★ | **7 h** | D7-Seguridad: cifrado |
-| R4-ATH-003 | Cifrar y firmar transferencias (GPG) | ★★★ | **4.5 h** | D7-Seguridad: cifrado |
-| R4-ATH-004 | Control de accesos: mínimo privilegio | ★★★★ | **7 h** | D7-Seguridad: accesos |
-| R4-ATH-005 | Anonimizar/pseudonimizar dataset clínico | ★★★★ | **7 h** | D7-Seguridad: anonimización |
-| R4-ATH-006 | Flujo HIPAA/GDPR | ★★★★ | **8 h** | D7-Seguridad: cumplimiento |
-| R4-ROCKY-01 | Almacenamiento seguro y respaldos en cluster | ★★★ | **4.5 h** | D5-HPC: almacenamiento |
-| R4-ROCKY-02 | Mover terabytes de forma verificada (checksums) | ★★★ | **4 h** | D5-HPC: transferencia |
-| R4-CLOUD-01 | Subir datos a AWS S3 con políticas de acceso | ★★★★ | **8 h** | D5-HPC: Cloud AWS |
-| R4-CLOUD-02 | Pipeline en AWS Batch bajo demanda | ★★★★ | **10 h** | D5-HPC: Cloud AWS |
-| **R4-BOSS-01** | **☠ LA AUDITORÍA** | **★★★★★** | **10 h** | D7+D9: defensa |
+| R4-SCRNA-001 | Single-Cell QC: filtrado de células/mitocondrial en Scanpy | ★★★★ | **8 h** | D3-NGS: scRNA-seq |
+| R4-SCRNA-002 | Reducción dimensional (PCA/UMAP) y clustering Leiden | ★★★★ | **7 h** | D3-NGS: scRNA-seq |
+| R4-SCRNA-003 | Marcadores por cluster y anotación biológica celular | ★★★ | **5 h** | D3-NGS: scRNA-seq |
+| R4-AWS-001 | Almacenamiento seguro en AWS S3 (buckets, IAM policies) | ★★★★ | **7 h** | D5-HPC: Cloud AWS |
+| R4-AWS-002 | Orquestar pipeline Nextflow en AWS Batch | ★★★★ | **10 h** | D5-HPC: Cloud AWS |
+| R4-CLIN-001 | Anonimización/pseudonimización dataset clínico (HIPAA/GDPR) | ★★★★ | **7 h** | D7-Seguridad: clínica |
+| R4-ROCKY-01 | Almacenamiento y respaldos en cluster | ★★★ | **4.5 h** | D5-HPC: almacenamiento |
+| R4-ROCKY-02 | Transferencia verificada de datos grandes (checksums) | ★★★ | **4.5 h** | D5-HPC: transferencia |
+| R4-CLOUD-01 | Monitoreo y control de costos en Seqera Platform (Nextflow Tower) | ★★★★ | **8 h** | D5-HPC: Cloud AWS |
+| R4-CLOUD-02 | Benchmark de tiempo/costo en AWS Batch | ★★★★ | **7 h** | D5-HPC: Cloud AWS |
+| **R4-BOSS-01** | **☠ EL DESPLIEGUE CLOUD & SINGLE-CELL (Auditoría AWS)** | **★★★★★** | **10 h** | D5+D7+D9: cloud |
 
 | Subtotal Rango IV | **11 ejercicios** | **78 h** | **875 XP** |
 |---|---|---|---|
 
 ---
 
-### RANGO V — Cazador de Dragones 🐉
+### RANGO V — Cazador Multi-Ómico & El Dragón 🐉
 
-**Dominio:** Proyecto estrella + ML + Venta · **Distros:** Las 3
-**Proyecto de Portafolio asociado:** P5 (Biomarcadores) + Diferencial A/B
-**Materias que refuerza:** Modelización de Sistemas (8º), Estadística para Bioinfo (7º), Diagnóstico Molecular (7º), Inmunología Aplicada (8º), Integración Curricular
+**Dominio:** Multi-ómica (Bulk + scRNA-seq) + R/Bioconductor + Venta Internacional · **Distros:** Xubuntu + Rocky Linux
+**Proyecto de Portafolio asociado:** P5 (Diagnóstico de Biomarcadores Multi-ómicos)
+**Materias que refuerza:** Estadística para Bioinformática (7º), Diagnóstico Molecular (7º), Modelización de Sistemas (8º), Integración Curricular (8º)
 
 | Código | Ejercicio | ★ | Horas | Dominio Glosario |
 |--------|-----------|---|-------|-------------------|
-| R5-ALL-001 | Diseñar arquitectura pipeline biomarcadores e2e | ★★★★ | **8 h** | D3+D4+D6: diseño |
-| R5-ALL-002 | Módulo de ingesta y QC del proyecto estrella | ★★★★ | **10 h** | D3-NGS + D4-Pipelines |
-| R5-ALL-003 | Módulo ML de selección de biomarcadores (scikit-learn) | ★★★★★ | **12 h** | D6-ML: clasificación |
-| R5-ALL-004 | Validar modelo: ROC/AUC, evitar fuga de datos | ★★★★★ | **10 h** | D6-ML: validación |
-| R5-ATH-001 | Capa de seguridad clínica sobre el proyecto | ★★★★ | **8 h** | D7-Seguridad |
-| R5-ROCKY-01 | Desplegar proyecto completo en cluster/cloud | ★★★★ | **9 h** | D5-HPC: deploy |
-| R5-ALL-005 | README y documentación de nivel profesional | ★★★ | **5 h** | D9-Negocio: portafolio |
-| R5-ALL-006 | Pitch de 60 segundos | ★★★★ | **4 h** | D9-Negocio: venta |
-| R5-ALL-007 | Simulacro de negociación salarial | ★★★★ | **4 h** | D9-Negocio: negociación |
-| **R5-BOSS-01** | **🐉 EL DRAGÓN: entrevista técnica completa en inglés** | **★★★★★** | **12 h** | D9-Negocio: entrevista |
+| R5-R-001 | Ecosistema R / Bioconductor (GenomicRanges, tidyverse) | ★★★★ | **7 h** | D2-Prog: R/Bioconductor |
+| R5-R-002 | Visualización avanzada en R (ComplexHeatmap, Volcano Plots) | ★★★★ | **6 h** | D2-Prog: R/Bioconductor |
+| R5-R-003 | Enriquecimiento GO/KEGG pathway (clusterProfiler en R) | ★★★ | **5 h** | D6-Estadística: vías |
+| R5-ALL-001 | Arquitectura e2e pipeline biomarcadores multi-ómicos | ★★★★ | **7 h** | D3+D4+D6: diseño |
+| R5-ALL-002 | Ingesta + QC multi-ómico en Nextflow + Docker | ★★★★ | **9 h** | D3-NGS + D4-Pipelines |
+| R5-ALL-003 | ML aplicado simple (scikit-learn) para selección biomarcadores | ★★★★★ | **10 h** | D6-ML: clasificación |
+| R5-ALL-004 | Validar modelo: ROC/AUC, sensibilidad/especificidad sin fuga | ★★★★★ | **9 h** | D6-ML: validación |
+| R5-ROCKY-01 | Deploy completo en AWS Batch + README profesional | ★★★★ | **9 h** | D5-HPC: deploy |
+| R5-ALL-006 | Pitch de 60 segundos en inglés | ★★★★ | **4 h** | D9-Negocio: venta |
+| R5-ALL-007 | Simulacro de negociación salarial ($2,500 base) | ★★★★ | **4 h** | D9-Negocio: negociación |
+| **R5-BOSS-01** | **🐉 EL DRAGÓN: entrevista técnica completa en inglés + Live Coding** | **★★★★★** | **12 h** | D9-Negocio: entrevista |
 
-| Subtotal Rango V | **10 ejercicios** | **82 h** | **900 XP** |
+| Subtotal Rango V | **11 ejercicios** | **82 h** | **900 XP** |
 |---|---|---|---|
+
+---
+
+## 📦 4. Módulos Electivos & Anexo de Curiosidad Técnica
+
+> [!NOTE]
+> **Carril Electivo Opcional (DLC Técnico):** Estos módulos preservan el 100% de los contenidos de SysAdmin, Ciberseguridad de SO y Machine Learning Teórico. No forman parte de la Línea Troncal obligatoria de 25 semanas; pueden realizarse post-contratación o por curiosidad técnica individual.
+
+### Anexo A: Hardening & DevSecOps (AthenaOS, LUKS, GPG) 🔐
+- `[ELECTIVO-SEC] R4-ATH-001`: Hardening básico de kernel y red en AthenaOS (8 h).
+- `[ELECTIVO-SEC] R4-ATH-002`: Cifrado de volumen local de pacientes con LUKS/dm-crypt (7 h).
+- `[ELECTIVO-SEC] R4-ATH-003`: Cifrado y firmas digitales de transferencias con GPG (4.5 h).
+- `[ELECTIVO-SEC] R4-ATH-004`: Control de accesos de mínimo privilegio a nivel de sistema operativo (7 h).
+- `[ELECTIVO-SEC] R4-BOSS-01`: **☠ LA AUDITORÍA DE INFRAESTRUCTURA FÍSICA** (10 h).
+
+### Anexo B: Machine Learning Teórico & Tuning Avanzado 🤖
+- `[ELECTIVO-ML] R5-ML-001`: Tuning exhaustivo de hiperparámetros (GridSearchCV) con scikit-learn (10 h).
+- `[ELECTIVO-ML] R5-ML-002`: Ensembles avanzados, Random Forests pesados y SVMs genómicos (12 h).
 
 ---
 
@@ -252,9 +275,9 @@ If you are interested, please send me a DM or leave a comment here!
 | I Aprendiz 🗡️ | 16 | **57 h** | 600 | ~3.5 sem | P1: seq-stats + Profile README |
 | II Domador ⚔️ | 12 | **77 h** | 650 | ~4.5 sem | P2: ngs-variant-calling |
 | III Arquitecto 🛡️ | 12 | **79.5 h** | 825 | ~5 sem | P3: ngs-nextflow + Open Source PR |
-| IV Guardián 🔐 | 11 | **78 h** | 875 | ~5 sem | P4: cloud deploy |
-| V Cazador 🐉 | 10 | **82 h** | 900 | ~5 sem | P5: blood-biomarker-dx |
-| **TOTAL** | **56 ejercicios + 5 jefes = 61 unidades** | **373.5 h** | **3850** | **~23 sem** | **5 repos + Profile README + PR** |
+| IV Guardián Cloud & Single-Cell 🧬☁️ | 11 | **78 h** | 875 | ~5 sem | P4: ngs-aws-singlecell deploy |
+| V Cazador Multi-Ómico 🐉 | 11 | **82 h** | 900 | ~5 sem | P5: blood-biomarker-dx |
+| **TOTAL** | **57 ejercicios + 5 jefes = 62 unidades** | **373.5 h** | **3850** | **~23 sem** | **5 repos + Profile README + PR** |
 
 ---
 
@@ -430,99 +453,99 @@ Corre en paralelo desde la Semana 4. El calendario de 25 semanas incluye únicam
 
 ---
 
-### Bloque IV — RANGO IV: Cloud + Seguridad (Semanas 15–19) · 78 h
+### Bloque IV — RANGO IV: Guardián Cloud & Single-Cell Genomics (Semanas 15–19) · 78 h
 
-#### Semana 15 — Hardening + LUKS (15 h)
-
-| Día | Ejercicios | Horas | Acumulado |
-|-----|-----------|-------|-----------|
-| **Día 1** | R4-ATH-001 (Hardening AthenaOS, 6h) | **6 h** | 243 h |
-| **Día 2** | R4-ATH-001 (completar, 2h) + R4-ATH-002 (LUKS cifrado, 4h) | **6 h** | 249 h |
-| **Día 3** | R4-ATH-002 (completar, 3h) | **3 h** | 252 h |
-
-#### Semana 16 — GPG & Accesos (18.5 h)
+#### Semana 15 — Single-Cell QC & UMAP (15 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R4-ATH-003 (GPG, 4.5h) + R4-ATH-004 (Control de accesos, 1.5h) | **6 h** | 258 h |
-| **Día 2** | R4-ATH-004 (completar, 5.5h) | **5.5 h** | 263.5 h |
-| **Día 3** | R4-ATH-005 (Anonimizar dataset clínico, 7h) | **7 h** | 270.5 h |
+| **Día 1** | R4-SCRNA-001 (Single-Cell QC Scanpy, 6h) | **6 h** | 243 h |
+| **Día 2** | R4-SCRNA-001 (completar, 2h) + R4-SCRNA-002 (PCA/UMAP Leiden, 4h) | **6 h** | 249 h |
+| **Día 3** | R4-SCRNA-002 (completar UMAP, 3h) | **3 h** | 252 h |
 
-#### Semana 17 — HIPAA/GDPR & HPC Storage (16 h)
-
-| Día | Ejercicios | Horas | Acumulado |
-|-----|-----------|-------|-----------|
-| **Día 1** | R4-ATH-006 (Flujo HIPAA/GDPR, 6h) | **6 h** | 276.5 h |
-| **Día 2** | R4-ATH-006 (completar, 2h) + R4-ROCKY-01 (Storage seguro, 4.5h) | **6.5 h** | 283 h |
-| **Día 3** | R4-ROCKY-02 (Mover terabytes verificado, 3.5h) | **3.5 h** | 286.5 h |
-
-#### Semana 18 — AWS Cloud & Batch (18 h)
+#### Semana 16 — Marcadores Celulares & Storage AWS (18.5 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R4-CLOUD-01 (AWS S3 + IAM, 6h) | **6 h** | 292.5 h |
-| **Día 2** | R4-CLOUD-01 (completar, 2h) + R4-CLOUD-02 (AWS Batch, 4h) | **6 h** | 298.5 h |
-| **Día 3** | R4-CLOUD-02 (completar AWS Batch, 6h) | **6 h** | 304.5 h |
+| **Día 1** | R4-SCRNA-003 (Marcadores por cluster, 5h) + R4-AWS-001 (AWS S3 storage, 1h) | **6 h** | 258 h |
+| **Día 2** | R4-AWS-001 (completar AWS S3 + IAM, 6h) | **6 h** | 264 h |
+| **Día 3** | R4-CLIN-001 (Anonimización dataset clínico HIPAA/GDPR, 6.5h) | **6.5 h** | 270.5 h |
 
-#### Semana 19 — Boss Fight R4: La Auditoría (10 h)
+#### Semana 17 — AWS Batch & HPC Storage (16 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R4-BOSS-01 (☠ La Auditoría — examen hostil de seguridad, 5h) | **5 h** | 309.5 h |
-| **Día 2** | R4-BOSS-01 (ejecución y defensa legal/técnica, 5h) | **5 h** | 314.5 h |
+| **Día 1** | R4-AWS-002 (Nextflow en AWS Batch inicio, 6h) | **6 h** | 276.5 h |
+| **Día 2** | R4-AWS-002 (completar, 4h) + R4-ROCKY-01 (Storage seguro cluster, 2.5h) | **6.5 h** | 283 h |
+| **Día 3** | R4-ROCKY-01 (completar, 2h) + R4-ROCKY-02 (Mover terabytes verificado, 1.5h) | **3.5 h** | 286.5 h |
+
+#### Semana 18 — Seqera Platform & Benchmark Cloud (18 h)
+
+| Día | Ejercicios | Horas | Acumulado |
+|-----|-----------|-------|-----------|
+| **Día 1** | R4-ROCKY-02 (completar, 3h) + R4-CLOUD-01 (Seqera Platform / Nextflow Tower, 3h) | **6 h** | 292.5 h |
+| **Día 2** | R4-CLOUD-01 (completar, 5h) + R4-CLOUD-02 (Benchmark AWS Batch inicio, 1h) | **6 h** | 298.5 h |
+| **Día 3** | R4-CLOUD-02 (completar benchmark costo/tiempo, 6h) | **6 h** | 304.5 h |
+
+#### Semana 19 — Boss Fight R4: El Despliegue Cloud & Single-Cell (10 h)
+
+| Día | Ejercicios | Horas | Acumulado |
+|-----|-----------|-------|-----------|
+| **Día 1** | R4-BOSS-01 (☠ Auditoría de despliegue en AWS + scRNA-seq, 5h) | **5 h** | 309.5 h |
+| **Día 2** | R4-BOSS-01 (ejecución y defensa de arquitectura cloud, 5h) | **5 h** | 314.5 h |
 | **✅ RANGO IV COMPLETO** · **🏆 Jefe R4 derrotado** |
 
 ---
 
-### Bloque V — RANGO V: El Proyecto Estrella y El Dragón (Semanas 20–25) · 82 h
+### Bloque V — RANGO V: Cazador Multi-Ómico & El Dragón (Semanas 20–25) · 86 h
 
-#### Semana 20 — Arquitectura & Módulo Ingesta (18 h)
-
-| Día | Ejercicios | Horas | Acumulado |
-|-----|-----------|-------|-----------|
-| **Día 1** | R5-ALL-001 (Arquitectura biomarcadores e2e, 6h) | **6 h** | 320.5 h |
-| **Día 2** | R5-ALL-001 (completar, 2h) + R5-ALL-002 (Ingesta + QC, 4h) | **6 h** | 326.5 h |
-| **Día 3** | R5-ALL-002 (completar ingesta, 6h) | **6 h** | 332.5 h |
-
-#### Semana 21 — Machine Learning en Genómica (18 h)
+#### Semana 20 — Ecosistema R / Bioconductor (18 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R5-ALL-003 (ML scikit-learn selección biomarcadores, 6h) | **6 h** | 338.5 h |
-| **Día 2** | R5-ALL-003 (completar ML, 6h) | **6 h** | 344.5 h |
-| **Día 3** | R5-ALL-004 (Validación ROC/AUC sin data leakage, 6h) | **6 h** | 350.5 h |
+| **Día 1** | R5-R-001 (R/Bioconductor GenomicRanges, 6h) | **6 h** | 320.5 h |
+| **Día 2** | R5-R-001 (completar, 2h) + R5-R-002 (ComplexHeatmap R, 4h) | **6 h** | 326.5 h |
+| **Día 3** | R5-R-002 (completar Heatmaps/Volcano plots, 3h) + R5-R-003 (clusterProfiler, 3h) | **6 h** | 332.5 h |
 
-#### Semana 22 — Validación, Seguridad & Deploy Cloud (14 h)
-
-| Día | Ejercicios | Horas | Acumulado |
-|-----|-----------|-------|-----------|
-| **Día 1** | R5-ALL-004 (completar validación, 4h) | **4 h** | 354.5 h |
-| **Día 2** | R5-ATH-001 (Capa de seguridad clínica AthenaOS, 6h) | **6 h** | 360.5 h |
-| **Día 3** | R5-ATH-001 (completar, 2h) + R5-ROCKY-01 (Deploy cloud, 2h) | **4 h** | 364.5 h |
-
-#### Semana 23 — Deploy, Documentación & Pitch (16 h)
+#### Semana 21 — Vías Biológicas & Arquitectura Multi-Ómica (18 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R5-ROCKY-01 (Deploy cloud completo, 7h) | **7 h** | 371.5 h |
-| **Día 2** | R5-ALL-005 (README profesional nivel publicación, 5h) | **5 h** | 376.5 h |
-| **Día 3** | R5-ALL-006 (Pitch 60s en inglés, 4h) | **4 h** | 380.5 h |
+| **Día 1** | R5-R-003 (completar clusterProfiler GO/KEGG, 2h) + R5-ALL-001 (Arquitectura multi-ómica e2e, 4h) | **6 h** | 338.5 h |
+| **Día 2** | R5-ALL-001 (completar, 4h) + R5-ALL-002 (Ingesta + QC multi-ómico, 2h) | **6 h** | 344.5 h |
+| **Día 3** | R5-ALL-002 (completar ingesta Nextflow/Docker, 6h) | **6 h** | 350.5 h |
+
+#### Semana 22 — ML Aplicado & Validación de Biomarcadores (14 h)
+
+| Día | Ejercicios | Horas | Acumulado |
+|-----|-----------|-------|-----------|
+| **Día 1** | R5-ALL-003 (ML aplicado scikit-learn selección biomarcadores, 6h) | **6 h** | 356.5 h |
+| **Día 2** | R5-ALL-003 (completar, 4h) + R5-ALL-004 (Validación ROC/AUC sin leakage, 2h) | **6 h** | 362.5 h |
+| **Día 3** | R5-ALL-004 (completar validación, 7h) | **7 h** | 369.5 h |
+
+#### Semana 23 — Deploy AWS, Documentación & Pitch (16 h)
+
+| Día | Ejercicios | Horas | Acumulado |
+|-----|-----------|-------|-----------|
+| **Día 1** | R5-ROCKY-01 (Deploy completo AWS Batch + README, 7h) | **7 h** | 376.5 h |
+| **Día 2** | R5-ROCKY-01 (completar, 2h) + R5-ALL-006 (Pitch 60s en inglés, 3h) | **5 h** | 381.5 h |
+| **Día 3** | R5-ALL-006 (completar pitch, 1h) + R5-ALL-007 (Simulacro negociación salarial $2,500 base, 3h) | **4 h** | 385.5 h |
 
 #### Semana 24 — Negociación Salarial & Simulacros (12 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R5-ALL-007 (Simulacro de negociación salarial, 4h) | **4 h** | 384.5 h |
-| **Día 2** | Preparación intensiva Dragón (Mock technical interview en inglés, 4h) | **4 h** | 388.5 h |
-| **Día 3** | Preparación intensiva Dragón (Live coding review, 4h) | **4 h** | 392.5 h |
+| **Día 1** | R5-ALL-007 (completar negociación salarial, 1h) + Preparación intensiva Dragón (Mock interview oral, 3h) | **4 h** | 389.5 h |
+| **Día 2** | Preparación intensiva Dragón (Live coding review en Python/Nextflow, 4h) | **4 h** | 393.5 h |
+| **Día 3** | Preparación intensiva Dragón (Defensa de repositorios en GitHub, 4h) | **4 h** | 397.5 h |
 
 #### Semana 25 — 🐉 EL DRAGÓN (12 h)
 
 | Día | Ejercicios | Horas | Acumulado |
 |-----|-----------|-------|-----------|
-| **Día 1** | R5-BOSS-01 (Preparación final de repos + warm-up oral en inglés, 4h) | **4 h** | 396.5 h |
-| **Día 2** | 🐉 **EL DRAGÓN:** Entrevista técnica en inglés + live coding (4h) | **4 h** | 400.5 h |
-| **Día 3** | 🐉 **EL DRAGÓN:** Negociación + post-mortem final (4h) | **4 h** | 404.5 h |
+| **Día 1** | R5-BOSS-01 (Warm-up oral en inglés + verificación final de repos, 4h) | **4 h** | 401.5 h |
+| **Día 2** | 🐉 **EL DRAGÓN:** Entrevista técnica en inglés + live coding (4h) | **4 h** | 405.5 h |
+| **Día 3** | 🐉 **EL DRAGÓN:** Negociación salarial + post-mortem final (4h) | **4 h** | 409.5 h |
 | **✅ RANGO V COMPLETO** · **🐉 DRAGÓN DERROTADO** |
 
 > **Entregable al cerrar Semana 25:** Repo `blood-biomarker-dx` publicado. 5 repos en GitHub + GitHub Profile README + 1 Contribución Open Source (PR a nf-core). Portafolio multivariado completo. **Perfil TOP 5% de candidatos junior a nivel mundial.**
@@ -551,7 +574,7 @@ Corre en paralelo desde la Semana 4. El calendario de 25 semanas incluye únicam
 | Bioprocesos (5º) | APOYO | — | (Covered by MVP: modelador) |
 | Base de Datos y Programación (6º) | MINA DE ORO | I, III | R1-XUB-007, R3-XUB-003 |
 | Proteómica y Metabolómica (6º) | ALTO VALOR | V | R5-ALL-001 (multi-ómica) |
-| Regulación de Biotecnología (6º) | APOYO | IV | R4-ATH-006 (HIPAA/GDPR) |
+| Regulación de Biotecnología (6º) | APOYO | IV | R4-CLIN-001 (HIPAA/GDPR) & Anexo A |
 | Estadística para Bioinformática (7º) | MINA DE ORO | II, V | R2-XUB-010, R5-ALL-003/004 |
 | Evolución Molecular y Filogenia (7º) | MINA DE ORO | Diferencial B | Pipeline filogenético |
 | Diagnóstico Molecular (7º) | ALTO VALOR | V | R5-ALL-001 a 005 (biomarcadores) |
@@ -562,7 +585,38 @@ Corre en paralelo desde la Semana 4. El calendario de 25 semanas incluye únicam
 
 ---
 
-## 🔄 Autoevaluación: Checkpoints Obligatorios
+## 📐 12. Rúbrica Mecánica de Evaluación & Grados Salariales
+
+Para evaluar tu nivel real por pura mecanicidad técnica, sin complacencia ni autoestimas infladas (PASA / NO PASA), se aplica la siguiente matriz de calibración salarial internacional:
+
+| Nivel Técnico | Descripción & Criterio Mecánico | Prueba de Verificación Booleana | Rango Salarial Internacional |
+|:---|:---|:---|:---|
+| **Nivel 0: No Contratable** | Depende de guías paso a paso. No sabe depurar errores de sintaxis en Python o CLI sin ayuda. | Falla live-coding simple de parsear FASTA/FASTQ en Python en <15 min. | $0 / mes |
+| **Nivel 1: Aprendiz de Procesamiento** | Corre comandos sueltos, genera análisis básicos, pero sus repos son sucios sin reproducibilidad. | Entrega un repo sin Docker, sin test automatizado, con README ambiguo. | $800 – $1,200 / mes (Local/Pasante) |
+| **Nivel 2: Junior Independiente (TARGET)** | Pasa la Escalera de Verificación. Repositorio ejecutable con 1 solo comando en VM limpia. | Python clean code + Type Hints + `pytest` verde en CI/CD + Nextflow DSL2/Docker + Inglés fluído. | **$2,000 – $2,500 / mes ($30k/año)** |
+| **Nivel 3: Bioinformatician Mid / Production** | Manejo de infraestructura Cloud (AWS Batch/S3), Single-Cell Genomics (Scanpy) o Multi-ómica en R. | Despliegue en AWS Batch con IAM roles + UMAP scRNA-seq + benchmark de reducción tiempo/memoria. | **$3,500 – $5,000 / mes ($60k/año)** |
+| **Nivel 4: Senior Architect / Lead** | Arquitectura petabyte, liderazgo de software, optimización financiera cloud y cumplimiento CLIA/FDA. | Sistema genómico distribuido a escala + ahorro comprobado de $100k+ en cloud + gestión de equipo. | **$8,000 – $12,500+ / mes ($150k/año)** |
+
+### 12.1 Puente Práctico al Perfil Senior ($12,500 USD/mes / $150k USD/año)
+
+Aunque el Nivel 4 (Senior Architect / Lead) requiere años de experiencia en producción real, el camino para acercarte a ese perfil de forma práctica se consolida acumulando capacidades en 4 pilares en tu trabajo diario (Años 1 a 5):
+
+1. **Pilar A — Petabyte Bio-IT Cloud Architecture & FinOps:**
+   - Terraform + AWS Batch / EKS + Seqera Cloud a escala.
+   - Demostración de negocio: Ahorro comprobado de $100k+ en cómputo/almacenamiento cloud en producción.
+2. **Pilar B — Software Engineering & Data Systems:**
+   - Desarrollo de APIs rápidas (FastAPI), consultas distribuidas en DuckDB/Parquet/ClickHouse y CI/CD avanzada.
+   - Demostración de negocio: Microservicios genómicos de respuesta en <200ms e integración con bases clínicas.
+3. **Pilar C — IA Aplicada & Foundation Models Genómicos:**
+   - Fine-tuning e integración de modelos como Evo, ESM3, AlphaFold3 o DeepVariant en pipelines de descubrimiento.
+   - Demostración de negocio: Aceleración del tamizaje de variantes con validación biológica ortogonal.
+4. **Pilar D — Calidad Regulada & Compliance Clínico:**
+   - Validación y auditoría de pipelines bajo estándares CLIA, CAP, FDA y privacidad HIPAA/GDPR.
+   - Demostración de negocio: Autorización y despliegue de pipelines para diagnóstico en pacientes reales.
+
+---
+
+## 🔄 13. Autoevaluación & Checkpoints Obligatorios
 
 Al cerrar cada Rango, mide tu nivel REAL contra la rúbrica del Doc 05. No avances si tienes "Fundamentos" en algo que debería estar en "Trabajo".
 
@@ -608,13 +662,13 @@ Horas acumuladas: [actualizar aquí]
 | Campo | Valor |
 |-------|-------|
 | **Rango actual** | **II (Domador de Secuencias) ⚔️** |
-| **XP actual** | **800** (🏆 Rango I Completo + R2-XUB-001/002/003 cerrados) |
-| **Último ejercicio cerrado** | `MVP-004/005` (Vitrina Comercial y Técnica) |
-| **Horas acumuladas** | **77.0 h** |
-| **Semana actual** | **Semana 5 Día 3 COMPLETADA AL 100%** ✅ |
-| **Próximo ejercicio** | `MVP-006` (Hablar con 3 usuarios potenciales) |
-| **Sprint MVP actual** | Sprint 0 (En Curso — `MVP-004`, `MVP-005` cerrados) |
-| **Vacantes aplicadas** | 0 |
+| **XP actual** | **950** (🏆 Rango I Completo + R2-XUB-001/002/003/006/007 cerrados) |
+| **Último ejercicio cerrado** | `R2-XUB-007` (bcftools Variant Filtering) |
+| **Horas acumuladas** | **113.0 h** |
+| **Semana actual** | **Semana 7 Día 3 (Técnica) COMPLETADA AL 100%** ✅ |
+| **Próximo ejercicio** | `R2-XUB-006` (GATK HaplotypeCaller Best Practices) |
+| **Sprint MVP actual** | Sprint 0 (Cerrado al 100% — `MVP-001` a `MVP-006` cerrados) |
+| **Vacantes aplicadas** | 0 (Apertura de canal de postulación activa) |
 
 ---
 
