@@ -12,6 +12,8 @@
 *.sam
 *.vcf
 *.vcf.gz
+*.tbi
+*.csi
 *.bcf
 *.fasta
 *.fa
