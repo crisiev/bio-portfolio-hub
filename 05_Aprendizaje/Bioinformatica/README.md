@@ -17,6 +17,8 @@
 - **Alineamiento & Formatos:** Genomas de referencia, BWA, STAR, samtools, SAM/BAM.
 - **Variant Calling & Anotación:** GATK HaplotypeCaller, bcftools, VCF, SnpEff.
 - **Expresión Diferencial & Pipelines:** RNA-seq, Salmon, DESeq2, Nextflow DSL2, Docker, Apptainer.
+- 📖 **[Glosario Maestro de Formatos & Herramientas](./GLOSARIO_FORMATOS_Y_HERRAMIENTAS.md)**
+- 🧬 **[Hoja de Ruta: ADN Personal & Motor Genotipo ↔ Fenotipo](./HOJA_DE_RUTA_ADN_PERSONAL_Y_MOTOR_BIOMARCADORES.md)**
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
 
