@@ -203,10 +203,9 @@ Qué es: Errores clásicos de ML y cómo medir bien un modelo clínico.
 Por qué te pagan: En diagnóstico, un modelo mal validado mata; saber evitarlo es premium clínico.
 Biología de sistemas / modelado [APOYO]
 Qué es: Modelar redes biológicas y estructuras (conecta con tu materia de 8.º).
-Por qué te pagan: Área de alta demanda que cruza biología, matemática y cómputo.
-Dominio 7 — Seguridad de datos genómicos (tu diferencial raro)
-Tu carta fuerte poco común. AthenaOS es tu terreno. En datos clínicos —tu proyecto de biomarcadores— esto justifica cobrar el doble, porque nadie contrata al más barato para tocar sangre de pacientes.
-Hardening de sistemas [DIFERENCIAL]
+Dominio 7 — Privacidad de datos genómicos & DevSecOps Electivo
+Tu diferencial de privacidad clínica (HIPAA/GDPR anonymization en AWS S3). Para profundización de SysAdmin y Ciberseguridad de sistema operativo, dispones del Anexo A Electivo (AthenaOS, LUKS, GPG).
+Hardening de sistemas [ELECTIVO ANEXO A]
 Qué es: Endurecer un sistema Linux para minimizar superficies de ataque.
 Por qué te pagan: Casi ningún bioinformático junior lo sabe; es diferencial puro en entrevista.
 Cifrado en reposo y en tránsito [DIFERENCIAL]

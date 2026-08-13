@@ -55,12 +55,12 @@ Perfil profesional
 Estudiante avanzado de Biotecnología con especialización autodidacta en bioinformática. Construyo pipelines NGS reproducibles (FASTQ→variantes) con Nextflow y Docker, analizo datos ómicos en Python/R e interpreto resultados con criterio biológico. Portafolio público en GitHub. Inglés fluido y experiencia con flujos de trabajo remotos.
 (Ajusta este párrafo a cada vacante: usa las mismas palabras clave del anuncio.)
 Habilidades técnicas
-Lenguajes: Python (pandas, NumPy, Biopython, scikit-learn), R (tidyverse, Bioconductor), Bash, SQL.
-NGS: FastQC/MultiQC, Trimmomatic/fastp, BWA/STAR, SAMtools/BCFtools, GATK, DESeq2, SnpEff.
+Lenguajes: Python (pandas, NumPy, Biopython, Scanpy, scikit-learn), R (tidyverse, Bioconductor, ComplexHeatmap, clusterProfiler), Bash, SQL.
+NGS & Single-Cell: FastQC/MultiQC, fastp, BWA/STAR, SAMtools/BCFtools, GATK, DESeq2, SnpEff, scRNA-seq (Scanpy/Seurat).
 Pipelines y reproducibilidad: Nextflow (DSL2), Docker/Apptainer, Conda/Mamba, Git/GitHub, CI/CD (GitHub Actions).
-Cloud y HPC: AWS (S3, Batch) / GCP, SLURM, Linux (Ubuntu, Rocky).
-Datos y estadística: expresión diferencial, pruebas múltiples (FDR), ML aplicado con validación biológica.
-Diferencial: seguridad de datos genómicos (cifrado, control de accesos, nociones HIPAA/GDPR).
+Cloud y HPC: AWS (S3, Batch, IAM), Seqera Platform (Nextflow Tower), SLURM, Linux (Ubuntu, Rocky).
+Datos y estadística: expresión diferencial, análisis de células individuales (clustering UMAP/Leiden), privacidad clínica (HIPAA/GDPR anonymization).
+Diferencial: canalización en nube AWS con Nextflow + single-cell genomics + R/Bioconductor.
 Proyectos (tu portafolio — lo más importante)
 Proyecto estrella — Diagnóstico de biomarcadores en sangre
 Pipeline reproducible de extremo a extremo (ingesta→QC→alineamiento→selección de biomarcadores→reporte) en Nextflow + Docker.

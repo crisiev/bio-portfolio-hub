@@ -19,12 +19,13 @@
 ## 📋 1. Columnas del Tablero Kanban
 
 ### 📥 Backlog (Por hacer)
-- [ ] `MVP-006` — Hablar con 3 usuarios potenciales (validar el dolor)
+*(Vacío — Sprint 0 completado)*
 
 ### 🔨 En Curso
 - [/] `INFRA-001` — Configurar WSL + Git SSH + Sincronización Multi-OS (Rocky Linux Main / AthenaOS / Xubuntu) para Portafolio Multivariado en GitHub.
 
 ### ✅ Hecho
+- [x] `MVP-006` — Hablar con 3 usuarios potenciales / Validación de dolor y precio ($1.99/mes) (2026-08-12)
 - [x] `MVP-004` — Crear repo en GitHub con README serio (Vitrina Técnica) (2026-08-11)
 - [x] `MVP-005` — Landing de 1 página con formulario de lista de espera (Vitrina Comercial) (2026-08-11)
 - [x] `MVP-002` — Definir el "trabajo pequeño" (Algoritmo de Tm en Biopython con TDD en pytest) (2026-08-10)
@@ -42,7 +43,7 @@
 
 | Sprint | Objetivo | Resultado | Fecha Cierre |
 |--------|----------|-----------|--------------|
-| **Sprint 0** | Fundamentos comerciales | En Curso | — |
+| **Sprint 0** | Fundamentos comerciales (FastAPI + Landing + MVP-001..006) | **COMPLETADO ✅** | 2026-08-12 |
 
 > [!TIP]
 > **Regla de Cierre:** Al cerrar un sprint, registra las métricas en la [`../04_Bitacora/README.md`](../04_Bitacora/README.md) y en el [`Modelo_de_Valor/Modelo_de_Valor_y_Precio.md`](./Modelo_de_Valor/Modelo_de_Valor_y_Precio.md).

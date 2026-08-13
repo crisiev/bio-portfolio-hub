@@ -27,4 +27,11 @@
 
 Para cada ejercicio, crea `AAAA-MM-DD_tema.md` con tus comandos probados a mano.
 
+---
+
+## 🛠️ 3. Guías e Infraestructura Personal
+
+- 🐧 [`RockyLinux_CLI_Setup.md`](./RockyLinux_CLI_Setup.md) — Filosofía CLI-First, Arquitectura de 5 capas y Runbook de aprovisionamiento para Rocky Linux CLI.
+
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
+

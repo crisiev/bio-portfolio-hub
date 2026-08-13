@@ -112,25 +112,25 @@ Entregable + línea de CV
 Repo: ngs-nextflow — el pipeline del P2 como Nextflow + Docker, con CI/CD que pasa en verde.
 CV: “Refactoricé un pipeline NGS a Nextflow (DSL2) con contenedores Docker/Apptainer y CI/CD (GitHub Actions), ejecutable de forma reproducible en HPC.”
 ↳ Mapea a tu Campaña: Rango III — Arquitecto de Flujos (R3-XUB-001 a R3-BOSS-01).
-PROYECTO 4  Despliegue en la nube (AWS Batch / GCP)
-El diferencial que en 2026 pasó de “deseable” a filtro: correr tu pipeline en cloud bajo demanda. Demuestra que no eres una persona de “funciona en mi máquina”.
+PROYECTO 4  Despliegue en la nube (AWS Batch / S3 + Single-Cell)
+El diferencial que en 2026 pasó de “deseable” a filtro: correr tu pipeline en la nube bajo demanda e integrar análisis Single-Cell (scRNA-seq).
 Qué demuestra (skills para el CV)
-Cloud (AWS S3 + Batch o GCP), IAM y políticas de acceso, ejecución de Nextflow en cloud, estimación y control de costos, transferencia segura de datos grandes.
+Cloud (AWS S3 + Batch), IAM políticas de acceso, Seqera Platform (Nextflow Tower), scRNA-seq (Scanpy), estimación y control de costos, anonimización clínica (HIPAA/GDPR).
 Datos que puedes usar
-El pipeline del Proyecto 3, ejecutado sobre datos subidos a S3/Cloud Storage. Usa un subset para mantener el costo mínimo (centavos).
+Dataset público de Single-Cell (ej. PBMC 3k o 10x Genomics) procesado con Nextflow y subido a AWS S3.
 Pasos / especificación
-Sube los datos a un bucket S3 (o GCS) con políticas de acceso correctas (mínimo privilegio).
-Configura Nextflow para ejecutar en AWS Batch (o GCP Batch); lanza el pipeline en la nube.
-Documenta costo y tiempo de ejecución: “procesó N muestras en X min por ~$Y”. Los reclutadores aman los benchmarks.
-Añade una sección de seguridad: cómo proteges los datos en tránsito y en reposo.
+Sube los datos a un bucket S3 con políticas de acceso IAM de mínimo privilegio.
+Configura Nextflow para ejecutar en AWS Batch con monitoreo en Seqera Platform.
+Procesa scRNA-seq con Scanpy: filtrado, PCA/UMAP, clustering (Leiden) y marker genes.
+Documenta costo y tiempo de ejecución: “procesó N muestras en X min por ~$Y”.
 Entregable + línea de CV
-Repo/README: ampliación del P3 con instrucciones y evidencia de ejecución en cloud + benchmark de costo/tiempo.
-CV: “Desplegué un pipeline NGS en AWS Batch (S3 + IAM) con benchmarking de costo y tiempo, ejecución reproducible en la nube.”
-↳ Mapea a tu Campaña: Rango IV — Guardián de Datos (R4-CLOUD-01, R4-CLOUD-02, R4-ROCKY-*).
-PROYECTO 5 ★  Proyecto estrella: diagnóstico de biomarcadores en sangre
-Tu pieza central y tu proyecto de titulación fundido en uno. Aquí converge todo: pipeline multilínea, contenerizado, en cloud, con ML validado biológicamente y una capa de seguridad de datos clínicos. Es lo que te hace memorable en una entrevista.
+Repo/README: ngs-aws-singlecell — pipeline Nextflow en AWS Batch para scRNA-seq con benchmarking de costo y privacidad clínica.
+CV: “Desplegué un pipeline scRNA-seq en AWS Batch (S3 + IAM) con monitoreo en Seqera Platform y anonimización clínica.”
+↳ Mapea a tu Campaña: Rango IV — Guardián Cloud & Single-Cell Genomics (R4-SCRNA-001..003, R4-AWS-001..002, R4-CLIN-001).
+PROYECTO 5 ★  Proyecto estrella: diagnóstico de biomarcadores multi-ónicos
+Tu pieza central y tu proyecto de titulación fundido en uno. Aquí converge todo: pipeline multi-ómico (Bulk + scRNA-seq), contenerizado en Nextflow/Docker, desplegado en AWS, con figuras de nivel de publicación en R (Bioconductor, ComplexHeatmap) y ML aplicado simple.
 Qué demuestra (skills para el CV)
-Todo lo anterior + ML aplicado con validación biológica (scikit-learn, AUC-ROC, control de fuga de datos) + seguridad de datos clínicos (cifrado, control de accesos, nociones HIPAA/GDPR) + comunicación de resultados.
+Todo lo anterior + R/Bioconductor (ComplexHeatmap, clusterProfiler) + ML aplicado con validación biológica (scikit-learn, AUC-ROC) + comunicación de resultados en inglés.
 Datos que puedes usar
 Datos públicos de expresión/variantes asociados a una condición (p. ej. GEO, TCGA-subset). Elige un caso donde puedas seleccionar biomarcadores y clasificar muestras.
 Pasos / especificación
@@ -143,7 +143,7 @@ Prepara un pitch de 60 segundos y una defensa de 10 min (sirve para el tribunal 
 Entregable + línea de CV
 Repo estrella: blood-biomarker-dx — el pipeline completo con ML, seguridad y documentación de nivel profesional.
 CV: “Desarrollé un pipeline reproducible de diagnóstico de biomarcadores en sangre (Nextflow + Docker, ejecutado en cloud) con módulo de ML validado (AUC-ROC) y una capa de seguridad de datos clínicos (cifrado, control de accesos).”
-↳ Mapea a tu Campaña: Rango V — Cazador de Dragones (R5-ALL-001 a R5-BOSS-01) + Integración Curricular.
+↳ Mapea a tu Campaña: Rango V — Cazador Multi-Ómico & El Dragón (R5-ALL-001 a R5-BOSS-01) + Integración Curricular.
 DIFERENCIAL A  Mini-proyecto de single-cell (scRNA-seq)
 Single-cell pasó a demanda caliente y bien pagada en 2026, y pocos juniors lo muestran. Un mini-proyecto te distingue visiblemente.
 Qué demuestra (skills para el CV)

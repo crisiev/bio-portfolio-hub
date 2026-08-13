@@ -67,8 +67,8 @@ Xubuntu
 HPC / SLURM
 Enviar jobs a un cluster, gestionar colas y recursos. Diferencia junior 'de laptop' vs 'de producción'.
 Rocky Linux
-Anillo 3 — Tu diferencial poco común
-Seguridad de datos genómicos (hardening, permisos, cifrado, cumplimiento tipo HIPAA/GDPR para datos clínicos) en AthenaOS. Casi ningún junior lo trae. En un contexto de diagnóstico clínico —justo tu proyecto de biomarcadores en sangre— esto es un argumento de venta enorme: los datos de pacientes son sensibles y pocos candidatos junior saben protegerlos. No lo desarrollamos primero, pero lo reservamos como carta fuerte para entrevistas y para tu proyecto estrella.
+Anillo 3 — Tu diferencial de Producción Cloud & Single-Cell
+Privacidad de datos genómicos clínicos (cumplimiento HIPAA/GDPR en AWS S3) + Single-Cell Genomics (scRNA-seq con Scanpy). Para profundización de SysAdmin y Ciberseguridad de SO, dispones del Anexo A Electivo (AthenaOS, LUKS, GPG).
 2. Realidad del mercado (datos 2026)
 Para que decidas con números, no con ilusión. Hay que separar dos mundos, porque tu salario dependerá de a cuál apuntes:
 Vía
@@ -242,12 +242,12 @@ Nextflow (DSL2): reescribir tu pipeline de la Fase 1 como workflow reproducible.
 Docker/Apptainer: contenerizar el pipeline para que corra en cualquier máquina.
 Rocky Linux: llevar el pipeline a un entorno tipo cluster; nociones de SLURM.
 ★ Línea de CV/portafolio:  Refactoricé un pipeline NGS a Nextflow (DSL2) con contenedores Docker, ejecutable de forma reproducible en entornos HPC.
-Fase 3 — Proyecto estrella: diagnóstico de biomarcadores en sangre (Semana 9–12)
-Tu proyecto piloto con Claude Code se convierte en la pieza central del portafolio. Aquí converge todo: pipeline multilínea, contenerizado, con una capa de seguridad de datos (AthenaOS) por ser datos clínicos sensibles. Esto es lo que te hace memorable en una entrevista.
-Pipeline multilínea reproducible (idea recomendada en tu proyecto Claude Code): ingesta → QC → alineamiento/cuantificación → selección de biomarcadores → reporte.
-Capa diferencial (AthenaOS): permisos, cifrado en reposo, manejo seguro de datos de pacientes. Pocos juniors lo muestran.
+Fase 3 — Proyecto estrella: diagnóstico de biomarcadores multi-ónicos (Semana 20–25)
+Tu pieza central y tu proyecto de titulación fundido en uno. Aquí converge todo: pipeline multi-ómico (Bulk + scRNA-seq), contenerizado en Nextflow/Docker, desplegado en AWS Batch, con visualización de nivel de publicación en R (Bioconductor). Esto es lo que te hace memorable en una entrevista.
+Pipeline multilínea reproducible: ingesta → QC → alineamiento/cuantificación → selección de biomarcadores → reporte.
+Capa diferencial Cloud & Privacidad (AWS S3 + Batch): anonimización de datos clínicos (HIPAA/GDPR) + monitoreo en Seqera Platform.
 README de nivel profesional: problema, datos, método, resultados, cómo reproducir. Es lo primero que lee un reclutador.
-★ Línea de CV/portafolio:  Desarrollé un pipeline reproducible de diagnóstico de biomarcadores en sangre con manejo seguro de datos clínicos (cifrado y control de accesos), documentado para reproducibilidad.
+★ Línea de CV/portafolio:  Desarrollé un pipeline reproducible de diagnóstico de biomarcadores multi-ónicos desplegado en AWS Batch con privacidad de datos clínicos (HIPAA/GDPR), documentado para reproducibilidad 1-click.
 Fase 4 — Postular en serio (transversal, desde la Semana 6)
 No esperas a 'estar listo'. Cada 3–4 tickets hacemos una pausa para actualizar el CV real y postular a vacantes reales —aunque el stack no esté completo— para leer el mercado y practicar entrevistas. Rechazos tempranos = información gratis sobre qué te falta.
 ★ Línea de CV/portafolio:  Apliqué a N vacantes junior de bioinformática, obteniendo entrevistas y retroalimentación que orientó mi preparación técnica.

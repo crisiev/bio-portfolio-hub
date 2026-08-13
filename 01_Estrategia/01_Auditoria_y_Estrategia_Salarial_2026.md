@@ -90,11 +90,11 @@ Miré la imagen de tu malla con cuidado. Diagnóstico honesto: tu carrera es bio
 ```
        REQUERIDO EN VACANTES REMOTAS 2026
 ┌─────────────────────────────────────────────────────────┐
-│ Linux/CLI · Python · Git · NGS (FastQC/BWA/GATK/DESeq2) │ -> ✅ Cubierto en Baseline
+│ Linux/CLI · Python · Git · NGS (FastQC/BWA/GATK/DESeq2) │ -> ✅ Cubierto en Baseline (Rangos I y II)
 ├─────────────────────────────────────────────────────────┤
-│ Nextflow (DSL2) · Docker / Apptainer · HPC (SLURM)      │ -> ⚠️ En progreso (Rango III)
+│ Nextflow (DSL2) · Docker / Apptainer · HPC (SLURM)      │ -> 🛡️ Rango III (Punto Job-Ready $2.5k)
 ├─────────────────────────────────────────────────────────┤
-│ Cloud (AWS S3/Batch) · ML (Scikit-Learn/ROC) · CI/CD    │ -> 🎯 Objetivos Rango IV y V
+│ scRNA-seq (Scanpy) · Cloud (AWS S3/Batch) · R/Bioconductor│ -> 🎯 Objetivos Rango IV y V
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -108,8 +108,8 @@ Miré la imagen de tu malla con cuidado. Diagnóstico honesto: tu carrera es bio
 Perfil Ancla: "Junior Sólido con dos destellos de Senior"
 ─────────────────────────────────────────────────────────
 • 1. Junior Sólido: Automatización de pipelines NGS, scripting robusto en Python y manejo impecable de Linux/Git.
-• 2. Destello Senior A: Orquestación reproducible en Nextflow + Docker desplegada en cluster HPC (SLURM) y Cloud (AWS).
-• 3. Destello Senior B: Aplicación rigurosa de Machine Learning a biomarcadores clínicos con validación sin data-leakage.
+• 2. Destello Senior A: Orquestación reproducible en Nextflow + Docker desplegada en cluster HPC (SLURM) y Cloud AWS.
+• 3. Destello Senior B: Análisis Single-Cell (scRNA-seq con Scanpy) e integración de figuras complejas en R/Bioconductor.
 ```
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
@@ -119,12 +119,21 @@ Perfil Ancla: "Junior Sólido con dos destellos de Senior"
 ## 💵 6. Estrategia y Números Salariales Defendibles
 
 > [!IMPORTANT]
-> **Números de negociación oficial:**
-> - **Suelo Innegociable (Remoto Internacional):** $2,000 USD / mes ($24,000 USD / año).
-> - **Objetivo Realista de Entrada (Remoto International):** $2,500 – $3,200 USD / mes ($30,000 – $38,400 USD / año).
+> **Números de negociación oficial por nivel:**
+> - **Suelo Innegociable de Entrada (Remoto Internacional):** $2,000 USD / mes ($24,000 USD / año).
+> - **Objetivo Realista de Entrada Junior (Remoto International):** $2,500 – $3,200 USD / mes ($30,000 – $38,400 USD / año).
+> - **Escalón Mid-Level (Meses 6–18 en empleo):** $3,500 – $5,000 USD / mes ($42,000 – $60,000 USD / año).
+> - **Techo Senior / Lead Architect (Años 4–8 en industria):** $8,000 – $12,500 USD / mes ($96,000 – $150,000 USD / año).
 > - **Suelo Local (Ecuador):** $1,200 USD / mes.
 
-### La narrativa de negociación salarial en entrevistas:
+### El Puente Práctico al Perfil Senior ($12,500 USD/mes / $150k USD/año)
+Para acercarte prácticamente al perfil de $12,500/mes durante tu carrera profesional (Años 1 al 5 en la industria), se consolidan 4 pilares:
+1. **Petabyte Bio-IT Cloud Architecture & FinOps:** Orquestación masiva en AWS/GCP (Terraform + Batch/EKS) con reducción demostrada de $100k+ en costos de cómputo.
+2. **Software Engineering & Data Systems:** Microservicios genómicos ultra-rápidos (FastAPI + DuckDB/Parquet) con latencia <200ms y suites de pruebas unitarias.
+3. **IA Aplicada & Foundation Models Genómicos:** Integración de modelos fundacionales (Evo, ESM3, AlphaFold3) con validación biológica ortogonal en pipelines de producción.
+4. **Compliance Clínico Regulado:** Validación de software bajo normas CLIA, CAP, FDA y privacidad HIPAA/GDPR para diagnóstico directo en pacientes.
+
+### La narrativa de negociación salarial en entrevistas junior:
 *"No vengo a aprender Linux ni a adivinar cómo correr GATK en un servidor. Traigo 5 repositorios auditables en GitHub con pipelines Nextflow containerizados, una contribución aceptada en nf-core y un flujo completo de biomarcadores con validación biológica y cumplimiento de datos clínicos."*
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
