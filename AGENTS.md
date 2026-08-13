@@ -82,6 +82,9 @@
 10. **Disciplina Multi-Ventana:**
    - Commits quirúrgicos: Prohibición total de usar `git add .` o `git add -A`. Usa siempre `git add <archivo_especifico>` para no arrastrar basura temporal o trabajo a medias de otra ventana.
    - Si un archivo modificado no fue tocado en esta sesión específica, es intocable (WIP de otra sesión). Reporta el cruce.
+11. **Puente Arquitectónico empleoBio ↔ Bull.Tech (ADN Personal + Motor Genotipo ↔ Fenotipo):**
+   - El entrenamiento bioinformático en `empleoBio` (NGS, FastQC, BWA, GATK, VCF, Nextflow, Docker, AWS) se aplica sobre la personalización del propio ADN de Christian (usando el dataset `HG002` o su kit personal) y se proyecta hacia la amplificación de su plataforma de medicina de precisión **Bull.Tech** (`C:\Users\BullTech\Documents\bull.tech`).
+   - El puente conecta el **Genotipo (Variantes VCF - MTHFR/CYP2D6)** con el **Fenotipo (Biomarcadores alterados en sangre)** para alimentar el *Optimizador Pleiotrópico Set-Cover* y la selección de formas químicas biodisponibles en el backend FastAPI de Bull.Tech. Ver [`05_Aprendizaje/Bioinformatica/HOJA_DE_RUTA_ADN_PERSONAL_Y_MOTOR_BIOMARCADORES.md`](./05_Aprendizaje/Bioinformatica/HOJA_DE_RUTA_ADN_PERSONAL_Y_MOTOR_BIOMARCADORES.md).
 
 [⬆️ Volver al inicio](#-tabla-de-contenidos)
 
