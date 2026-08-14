@@ -116,29 +116,31 @@ Proyecto: pipeline filogenético reproducible (MSA → árbol ML → figura anot
 CV: “Pipeline de filogenia molecular (MAFFT + IQ-TREE) con soporte por bootstrap e interpretación de selección (dN/dS), aplicado a genómica de patógenos.”
 4. Modelización de Sistemas y Estructuras Biológicas   ·  2 créditos
 MINA DE ORO
-Tu puerta al ML/IA aplicado y a la biología estructural —la franja mejor pagada de 2026—. Modelas redes biológicas y estructuras de proteínas; conecta directo con tu proyecto estrella.
+Tu puerta al ML/IA aplicado, la biofísica y la biología estructural computacional —la franja mejor pagada y más cotizada de 2026—. Modelas redes metabólicas interconectadas, dinámica molecular y acoplamiento fármaco-receptor; conecta directo con tu proyecto estrella y Bull.Tech.
 Temario esperado
-Biología de sistemas: redes de regulación génica, redes metabólicas, análisis de grafos.
-Modelado dinámico: ecuaciones diferenciales, modelos basados en agentes, análisis de flujo metabólico (FBA).
-Estructura de proteínas: niveles (1ª–4ª), predicción y plegamiento; AlphaFold y sucesores.
-Docking molecular y bases de estructura (PDB); visualización (PyMOL, ChimeraX).
-Introducción al machine learning aplicado a biología: clasificación, regresión, validación cruzada.
-Sobreajuste, fuga de datos y métricas clínicas (ROC, AUC, precisión/recall).
+Biología de sistemas: redes metabólicas y alostéricas (mTOR vs AMPK, Insulina vs Glucagón, osciladores circadianos BMAL1/CLOCK).
+Modelado dinámico: ecuaciones diferenciales, modelos basados en agentes, análisis de balance de flujos (FBA).
+Estructura macromolecular 3D: niveles (1ª–4ª), coordenadas PDB/mmCIF, campos de fuerza y aproximación de Born-Oppenheimer.
+IA Estructural & Co-folding: AlphaFold3, Chai-1 y Boltz-1/Boltz-2 (predicción de afinidad ΔG/Kd).
+Docking generativo & Biofísica: DiffDock (difusión en SE(3)), dinámica molecular clásica (GROMACS, OpenMM).
+Quimioinformática & Farmacogenómica: RDKit, descriptores moleculares, guías CPIC/PharmGKB.
+Machine learning clínico & XAI: clasificación, validación cruzada sin fuga de datos, métricas clínicas (AUC-ROC), explicabilidad mecanística con SHAP y DAGs causales.
 Glosario clave
-Red de regulación génica — grafo de qué genes activan/reprimen a cuáles; se modela y simula.
-FBA (análisis de balance de flujos) — método para predecir flujos metabólicos sin cinética detallada.
-AlphaFold — modelo de IA que predice estructura 3D de proteínas desde la secuencia; cambió el campo.
-Docking — simular cómo una molécula pequeña se acopla a una proteína (descubrimiento de fármacos).
+Red metabólica/alostérica — grafo interconectado de enzimas y metabolitos donde la activación de una vía inhibe o activa remotamente otras.
+Aproximación de Born-Oppenheimer — desacoplamiento de núcleos y electrones que justifica la dinámica molecular clásica newtoniana en GROMACS/OpenMM.
+Boltz-2 — foundation model abierto de co-folding multimodal (proteína-ligando-ácidos nucleicos) con predicción de afinidad.
+DiffDock — docking generativo con modelos de difusión para acoplar moléculas flexibles sin sesgo de caja rígida.
+XAI Mecanística — explicabilidad de IA basada en leyes bioquímicas reales para educar y generar awareness en el paciente.
 Fuga de datos (data leakage) — cuando información del test se filtra al entrenamiento e infla el rendimiento; error fatal en clínica.
 AUC-ROC — métrica de un clasificador: área bajo la curva de sensibilidad vs 1-especificidad.
 Ejercicios para practicar (con sabor laboral)
-Descarga una estructura de PDB, visualízala en PyMOL y señala su sitio activo.
-Entrena un clasificador (scikit-learn) sobre un dataset biológico y valida con validación cruzada, evitando fuga de datos.
-Reporta AUC, precisión y recall, y explica por qué el accuracy engaña en clases desbalanceadas.
-Modela una pequeña red de regulación y simula su dinámica.
+Descarga una estructura de PDB/AlphaFold DB, visualízala en ChimeraX/PyMOL y mapea el sitio activo de un citocromo.
+Ejecuta un docking proteína-ligando con DiffDock o Boltz-2 y calcula descriptores moleculares con RDKit.
+Corre una minimización de energía y simulación de 10 ns en OpenMM para evaluar la estabilidad del complejo.
+Entrena un clasificador (scikit-learn) sobre un dataset biológico con validación cruzada y explicabilidad SHAP.
 Puente a empleo · línea de CV/portafolio
-Proyecto: clasificador con validación biológica (el módulo ML de tu proyecto estrella de biomarcadores).
-CV: “Modelo de ML (scikit-learn) para clasificación de biomarcadores con validación cruzada, control de fuga de datos y métricas clínicas (AUC-ROC), interpretado biológicamente.”
+Proyecto: pipeline de farmacogenómica estructural con IA (Diferencial C) + clasificador clínico con XAI (Proyecto 5).
+CV: “Modelo de ML/XAI para clasificación de biomarcadores y pipeline de IA estructural (Boltz-2 + DiffDock + OpenMM) para predecir el impacto de variantes en la afinidad de ligandos.”
 Grupo B · Ómicas y clínica (alto valor empleable)
 Aquí está el “qué” biológico que interpretas con tu código, y el sector salud —que paga bien—. Convierte cada una en un notebook o módulo de portafolio.
 5. Genómica Estructural y Funcional   ·  3 créditos

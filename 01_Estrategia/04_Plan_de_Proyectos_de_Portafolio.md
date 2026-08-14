@@ -172,6 +172,22 @@ Empaqueta el flujo completo como script/Nextflow reproducible.
 Entregable + línea de CV
 Repo: phylo-pipeline — descarga→MSA→árbol→figura, reproducible.
 CV: “Pipeline de filogenia molecular (MAFFT + IQ-TREE) con soporte por bootstrap, aplicado a genómica de patógenos.”
+
+DIFERENCIAL C  Pipeline Estructural & Farmacogenómica (Variant-to-Structure-to-Docking)
+Conecta con tu materia de Modelización de Sistemas (8º sem) y la visión biológica de Bull.Tech. Integra una variante de NGS con predicción estructural 3D, docking con difusión e inferencia de afinidad ligando-proteína.
+Qué demuestra (skills para el CV)
+Quimioinformática (RDKit), Farmacogenómica computacional (CPIC/PharmGKB), Co-folding y Docking generativo con IA (Boltz-2 / DiffDock), Visualización molecular (ChimeraX/PyMOL), Dinámica molecular básica (OpenMM).
+Datos que puedes usar
+Estructura PDB / AlphaFold DB de citocromos humanos (CYP2D6, CYP2C19 o MTHFR) + ligandos/fármacos de DrugBank/PubChem/COCONUT.
+Pasos / especificación
+1. Mapea una variante missense de un VCF a la secuencia y estructura 3D de la proteína.
+2. Predice el complejo proteína-ligando y el cambio conformacional usando Boltz-2 / DiffDock.
+3. Evalúa la afinidad de unión y la estabilidad termodinámica con OpenMM (solvatación explícita).
+4. Genera un reporte mecanístico interactivo que explique biológicamente por qué la variante altera el metabolismo del sustrato.
+Entregable + línea de CV
+Repo: structural-pharmacogenomics — pipeline reproducible Variant-to-Docking con IA generativa y validación en OpenMM.
+CV: “Pipeline de farmacogenómica estructural con IA (Boltz-2 + DiffDock + OpenMM) para modelar el impacto de variantes genéticas en la afinidad de fármacos y metabolitos.”
+
 4 · Datasets públicos recomendados
 Todo lo anterior corre con datos abiertos y gratuitos. Usa siempre subsets pequeños para que tus pipelines corran rápido (y tu CI también).
 Fuente

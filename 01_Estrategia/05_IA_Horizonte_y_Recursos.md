@@ -54,11 +54,17 @@ Redes que aprenden el perfil de error de lecturas largas; el estándar emergente
 SpliceAI
 Predicción de efecto de variantes en splicing.
 Modela motivos complejos más allá del escaneo simple; muy usado en clínica.
-AlphaFold3
-Estructura de complejos (proteína-péptido, proteína-ARN).
+AlphaFold3 / Chai-1
+Estructura de complejos (proteína-péptido, proteína-ARN, ligandos).
 Pasó de proteínas individuales a ensamblajes; base del descubrimiento de fármacos moderno.
+Boltz-1 & Boltz-2
+Foundation Model de Co-folding abierto (MIT) y predicción de afinidad (*binding affinity*).
+El líder open-source: predice complejos proteína-ligando-ácidos nucleicos y afinidades sin restricciones comerciales.
+DiffDock / DynamicBind
+Docking molecular generativo con modelos de difusión sobre SE(3).
+Supera el docking clásico a ciegas; modela flexibilidad del ligando y cavidad inducida (*induced fit*).
 Idea de portafolio de alto impacto: en tu Proyecto 2 (variant calling), corre GATK Y DeepVariant sobre los mismos datos y compara resultados (un mini-benchmark). Eso demuestra criterio moderno y disciplina de validación a la vez.
-2.3 · Foundation models de genómica (la ola grande)
+2.3 · Foundation models de genómica y biología estructural (la ola grande)
 Aquí está la tendencia que definirá el mediano plazo: modelos gigantes preentrenados sobre secuencias de ADN/ARN/células, que luego se afinan para tareas específicas —como los LLMs, pero para biología—. No necesitas dominarlos para tu primer empleo, pero conocerlos y haber tocado uno te pone años por delante. Estos son los que debes saber nombrar:
 Modelo
 Qué es

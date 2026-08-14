@@ -57,7 +57,7 @@
 ### Biotecnología / Afines (Tu Facultad)
 - **`IDEA-02` Toolkit de biología molecular in-silico ⭐:** Audiencia: bio-mol, labs · Dolor: mala UX de herramientas in-silico · Skills: Biopython, FastAPI, Docker.
 - **`IDEA-08` Modelador de bioprocesos / cinética:** Audiencia: biotec, alimentos · Dolor: curvas de crecimiento a mano · Skills: Python (`scipy`), matplotlib.
-- **`IDEA-10` Bull.Tech — Plataforma de Medicina de Precisión (Genotipo ↔ Fenotipo):** Audiencia: Laboratorios clínicos, investigación y medicina personalizada · Dolor: Exámenes de laboratorio en PDF aislados sin causa raíz genómica · Skills: FastAPI, Optimizador Pleiotrópico Set-Cover, Parsers VCF/SNPs, Jinja2/Playwright, Flutter · Repo: `C:\Users\BullTech\Documents\bull.tech`.
+- **`IDEA-10` Bull.Tech — Plataforma de Medicina de Precisión & Bio-Optimización Integral:** Audiencia: Laboratorios clínicos, bio-hackers, estudiantes e investigadores · Dolor: Exámenes de sangre aislados sin causa raíz genómica, desconexión de hábitos y falta de educación mecanística · Skills: FastAPI, Optimizador Pleiotrópico Set-Cover, Parsers VCF/SNPs, IA Estructural (Boltz-2 / DiffDock), Explicabilidad XAI Causal, Jinja2/Playwright, Flutter · Repo: `C:\Users\BullTech\Documents\bull.tech`.
 
 ### Enfermería / Medicina (Fortaleza de tu Universidad)
 > [!WARNING]

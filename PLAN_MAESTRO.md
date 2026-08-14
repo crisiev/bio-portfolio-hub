@@ -221,6 +221,12 @@ Cada ejercicio del Registro de Campaña tiene una dificultad (★). Esta tabla d
 - `[ELECTIVO-ML] R5-ML-001`: Tuning exhaustivo de hiperparámetros (GridSearchCV) con scikit-learn (10 h).
 - `[ELECTIVO-ML] R5-ML-002`: Ensembles avanzados, Random Forests pesados y SVMs genómicos (12 h).
 
+### Anexo C: Biofísica Computacional, IA Estructural & Farmacogenómica de Precisión ⚛️💊
+- `[ELECTIVO-CADD] R5-STR-001`: Quimioinformática con RDKit y parseo de guías clínicas CPIC/PharmGKB (8 h).
+- `[ELECTIVO-CADD] R5-STR-002`: Docking generativo con difusión (DiffDock) y co-folding multimodal (Boltz-2 / Chai-1) (10 h).
+- `[ELECTIVO-CADD] R5-STR-003`: Simulación de dinámica molecular en solvente explícito (OpenMM / GROMACS) y análisis RMSD/RMSF (12 h).
+- `[ELECTIVO-CADD] R5-BOSS-01`: **☠ EL COMPLEJO MACROMOLECULAR: Variant-to-Structure-to-Affinity e2e** (10 h).
+
 ---
 
 ## 🌐 ECOSISTEMA BIOSOCIAL: Comunidades, Networking e Inglés C1
@@ -300,6 +306,7 @@ Corre en paralelo desde la Semana 4. El calendario de 25 semanas incluye únicam
 |----------|-----------|--------|
 | Diferencial A: scRNA-seq (Scanpy/Seurat) | **20–25 h** | Después de Rango V, o entre Rangos IV–V |
 | Diferencial B: Pipeline de filogenia (MAFFT + IQ-TREE) | **15–20 h** | Cuando curses Evolución Molecular (7º sem) |
+| Diferencial C: Pipeline Estructural & Farmacogenómica (Variant-to-Structure-to-Docking) | **20–25 h** | Cuando curses Modelización de Sistemas (8º sem) o post-contratación |
 
 ---
 
@@ -312,7 +319,7 @@ Corre en paralelo desde la Semana 4. El calendario de 25 semanas incluye únicam
 | BioSocial e inglés con franja explícita | 11 h |
 | **TOTAL CALENDARIZADO (Semanas 1–25)** | **404.5 h** |
 | Backlog MVP no calendarizado | 65 h estimadas |
-| Diferenciales (opcionales, post-Rango V) | 40 h estimadas |
+| Diferenciales (opcionales, post-Rango V) | 60 h estimadas |
 
 ---
 

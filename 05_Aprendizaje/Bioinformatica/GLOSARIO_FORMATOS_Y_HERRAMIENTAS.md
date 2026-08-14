@@ -70,6 +70,14 @@ graph TD
 - **Qué es:** Formato tabulado de 9 columnas que define las coordenadas biológicas de elementos del genoma (genes, exones, intrones, promotores, UTRs).
 - **Uso:** Permite saber en qué gen o región funcional cae una variante VCF o una lectura BAM.
 
+### PDB & mmCIF (Estructuras Macromoleculares 3D)
+- **PDB (.pdb):** Formato histórico de coordenadas atómicas en 3D ($X, Y, Z$) de proteínas, ácidos nucleicos y ligandos resueltos por Rayos X, RMN o Cryo-EM.
+- **mmCIF (.cif):** Estándar moderno del PDB para estructuras gigantescas (complejos ribosomales) sin límite de 99,999 átomos ni 62 cadenas.
+
+### SDF & SMILES (Formatos Químicos de Moléculas y Fármacos)
+- **SMILES (Simplified Molecular Input Line Entry System):** Notación de texto de una línea para estructuras químicas (ej. Cafeína: `CN1C=NC2=C1C(=O)N(C(=O)N2C)C`).
+- **SDF / MOL2 (.sdf, .mol2):** Formato con coordenadas espaciales 3D, enlaces, órdenes de enlace y cargas parciales de ligandos y fitocompuestos.
+
 ---
 
 ## 🛠️ 3. Herramientas y Orquestadores de Producción
@@ -84,6 +92,33 @@ graph TD
 
 ### Rosalind (`rosalind.info`)
 - **Plataforma de algoritmos:** Entorno de problemas bioinformáticos para dominar manipulación de cadenas, estructuras de datos y lógica biológica en Python.
+
+---
+
+## ⚛️ 4. Herramientas de CADD, Biofísica e IA Estructural
+
+### Boltz-1 & Boltz-2 (Foundation Model de Co-folding & Afinidad)
+- **Mecanismo:** Modelo abierto (MIT) de co-folding multimodal (Proteína-Ligando-Ácidos Nucleicos). Boltz-2 predice afinidad de unión (*binding affinity* $\Delta G / K_d$).
+- **Uso:** Cribado de fármacos y metabolitos sin restricciones de licencia comercial.
+
+### DiffDock / DynamicBind (Docking Generativo con Difusión)
+- **Mecanismo:** Modelos de difusión sobre el grupo euclidiano $SE(3)$ para acoplar ligandos flexibles en cavidades proteicas inducidas (*induced fit*).
+
+### RDKit (Quimioinformática en Python)
+- **Mecanismo:** Librería estándar para calcular descriptores fisicoquímicos (LogP, TPSA, peso molecular), fingerprints moleculares (Morgan/ECFP4) y similitud química (Tanimoto).
+
+### OpenMM & GROMACS (Dinámica Molecular y Biofísica)
+- **OpenMM:** Motor de dinámica molecular acelerado por GPU con API nativa en Python (`import openmm`), ideal para automatizar pipelines.
+- **GROMACS:** Motor de alto rendimiento en C++/CUDA para simulación masiva de estabilidad conformacional, solvatación explícita y análisis RMSD/RMSF en clusters HPC/SLURM.
+
+---
+
+## 🏛️ 5. Bases de Datos de Farmacogenómica, Fitoquímica y Metaboloma
+
+* **CPIC & PharmGKB:** Guías de dosificación clínica basadas en genotipo y alelos estrella (*Star Alleles* en citocromos $CYP2D6, CYP2C19$).
+* **HMDB (Human Metabolome Database):** Enciclopedia de más de 200,000 metabolitos humanos y sus rangos fisiológicos en sangre y orina.
+* **COCONUT Database & FooDB:** Repositorios abiertos de metabolitos secundarios de plantas, fitocompuestos y alimentos bioactivos.
+* **ChEMBL & PubChem:** Bases de datos de bioactividad molecular, afinidades de unión ($IC_{50}, K_i$) y propiedades farmacológicas.
 
 ---
 

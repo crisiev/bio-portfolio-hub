@@ -45,36 +45,42 @@ Para llevar a producción tu propio análisis genético, estos son los pendiente
 
 ---
 
-## 🌉 3. El Puente Arquitectónico: Genotipo (VCF) ↔ Fenotipo (Biomarcadores)
+## 🌉 3. El Puente Arquitectónico: Genotipo ↔ Fenotipo ↔ Estructura ↔ Awareness
 
-Existe un **puente biológico y computacional directo** entre las variantes de ADN (Genotipo) y las analíticas de laboratorio clínico en sangre (Fenotipo):
+Existe un **puente biológico, estructural y computacional directo** entre las 4 capas del sistema:
 
 ```mermaid
-graph LR
-    subgraph CAPA 1: GENOTIPO (ADN Estático)
-        A[Archivo VCF / SNPs] -->|Variantes genéticas p.ej. MTHFR, CYP2D6, APOE| B[Motor de Predisposición Causal]
+graph TD
+    subgraph CAPA 1: GENOTIPO (ADN Fijo)
+        A[Archivo VCF / SNPs] -->|Variantes p.ej. MTHFR, CYP2D6| B[Predisposición & Farmacogenómica CPIC]
     end
     
-    subgraph CAPA 2: FENOTIPO (Fisiología Viva)
-        C[Examen de Sangre / Lab Clínico] -->|Biomarcadores alterados p.ej. Homocisteína, Colesterol, ALT| D[Motor de Análisis Fisiológico]
+    subgraph CAPA 2: FENOTIPO (Fisiología Dinámica)
+        C[Analítica Sanguínea / HMDB] -->|Biomarcadores p.ej. Homocisteína, ApoB, HOMA-IR| D[Estado Metabólico Funcional]
     end
 
-    B & D --> E{MOTOR INTEGRADO DE RECOMENDACIÓN<br/>Bull.Tech Core}
+    subgraph CAPA 3: ESTRUCTURA & CADD (IA Molecular)
+        E[Modelado 3D Boltz-2 / DiffDock] -->|Afinidad ligando-receptor Kd| F[Intervención Fito-Farmacológica Precisa]
+    end
 
-    E --> F[Reporte Inteligente Personalizado]
-    F --> G1[Explicación Causal Molecular]
-    F --> G2[Ajustes de Nutrición / Suplementación Biodisponible]
-    F --> G3[Recomendaciones de Estilo de Vida Basadas en Evidencia]
+    B & D & F --> G{MOTOR INTEGRADO BULL.TECH<br/>Optimizador Pleiotrópico}
+
+    subgraph CAPA 4: AWARENESS MECANÍSTICO (XAI)
+        G --> H[Reporte Causal al Paciente]
+        H --> I1[Explicación Bioquímica: mTOR/AMPK/Circadiano]
+        H --> I2[Crononutrición & Hábitos Estratégicos]
+        H --> I3[Fitoterapia Biodisponible sin Toxicidad]
+    end
 ```
 
-### 💡 Ejemplo Práctico de Integración (El Caso MTHFR / Homocisteína):
+### 💡 Ejemplo Práctico de Integración (El Caso MTHFR / CYP2D6 / Homocisteína):
 
-1. **Analítica de Sangre (Fenotipo):** El examen de laboratorio del paciente muestra **Homocisteína elevada (18 µmol/L)**. Un reporte tradicional solo diría "valor fuera de rango".
-2. **Análisis de ADN (Genotipo):** El archivo VCF revela que el paciente es homocigoto para la variante **`MTHFR C677T (TT)`**, la cual reduce la eficiencia de la enzima folato reductasa en un 65%.
-3. **La Acción del Motor Integrado (El Puente):**
-   - El motor cruza Genotipo + Fenotipo.
-   - Detecta la causa raíz molecular: el cuerpo no convierte eficientemente el ácido fólico sintético.
-   - **Recomendación Inteligente:** Sugiere suplementar con **L-metilfolato (forma activa)** + Vitaminas B6/B12, en lugar de ácido fólico común, permitiendo normalizar el biomarcador en sangre.
+1. **Analítica de Sangre (Fenotipo):** El examen de laboratorio del paciente muestra **Homocisteína elevada (18 µmol/L)** e índice HOMA-IR alto.
+2. **Análisis de ADN (Genotipo):** El archivo VCF revela homocigosis en **`MTHFR C677T (TT)`** (reducción del 65% en la actividad de la enzima) y metabolizador intermedio en citocromo **`CYP2D6*4`**.
+3. **Capa Estructural / CADD:** Boltz-2 y DiffDock evalúan la cavidad catalítica de la enzima mutada frente a sustratos sintéticos vs. formas reducidas y cofactores activos.
+4. **La Acción del Motor Integrado (Awareness XAI):**
+   - El motor no solo dice "toma esta pastilla".
+   - **Explicación al Paciente:** *"Tu variante genética MTHFR disminuye la velocidad para transformar el ácido fólico inactivo. Al combinarse con cenas tardías ricas en carbohidratos, se eleva la homocisteína y se frena la metilación hepática. Recomendamos sincronizar la ingesta de alimentos con tu ventana de luz natural (8 AM – 6 PM) y utilizar L-metilfolato (forma activa 5-MTHF) junto con colina para desviar la remetilación vía BHMT."*
 
 ---
 
@@ -84,8 +90,10 @@ Esta arquitectura se despliega modularmente en tu proyecto comercial/universitar
 
 1. **Fase MVP Inicial (Laboratorios Clínicos Básicos):**  
    Ingesta de datos de análisis de sangre (Valores del biomarcador vs Rangos de Referencia Estadísticos) $\rightarrow$ Motor de alertas y recomendaciones de hábitos.
-2. **Fase MVP Avanzada (Módulo Genómico Add-on):**  
-   Carga del archivo VCF/RAW de ADN del paciente $\rightarrow$ El motor habilita la **Capa de Medicina de Precisión**, cruzando variantes enzimáticas con los biomarcadores alterados.
+2. **Fase MVP Avanzada (Módulo Genómico & Farmacogenómica):**  
+   Carga del archivo VCF/RAW de ADN del paciente $\rightarrow$ El motor cruza variantes enzimáticas con guías **CPIC/PharmGKB** y biomarcadores alterados.
+3. **Fase MVP Pro (Capa Estructural con IA & XAI Educativo):**  
+   Cribado de fitocompuestos con **Boltz-2 / DiffDock / RDKit** + Generador de reportes visuales causales para el paciente.
 
 ---
 
